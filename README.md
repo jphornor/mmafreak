@@ -1,4 +1,4 @@
-mmafreak
+mma-freak.com
 ========
 
-MMA Freak
+MMA Freak Repo for Brand and Site Theme
