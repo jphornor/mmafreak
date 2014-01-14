@@ -1,0 +1,322 @@
+@import "compass";
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/layout";
+@import "compass/utilities";
+@import "../css/partials/lib/mixins";
+
+@import "color";
+
+/**
+ * Color Scheme for Newsportal WordPress Theme by Nesia
+ *
+ */
+
+// Variables
+$linkColor:       lighten($baseColor, 18%);
+$linkColorHover:  darken($linkColor, 15%);
+
+/* Base
+=================================================================== */
+a {
+  color: $linkColor;
+}
+a:hover {
+  color: $linkColorHover;
+}
+
+
+/* Topnav Section
+=================================================================== */
+.header-container {
+  background-color: $baseColor;
+}
+
+/* Top Navigation
+------------------------------------------------------------------- */
+.top-nav a:hover,
+.top-nav .current-menu-item a,
+.top-nav .current_page_item a {
+  background: darken($baseColor, 11.5);
+  background: rgba(0,0,0,.2);
+}
+.primary-nav .children,
+.primary-nav .sub-menu {
+  background: lighten($baseColor, 10);
+
+  a:hover,
+  .sfHover > a {
+    background: darken($baseColor, 11.5);
+    background: rgba(0,0,0,.2);    
+  }
+}
+
+/* Author Menu
+------------------------------------------------------------------- */
+.author-dropdown {
+  a {
+    color: $linkColor;
+  }
+}
+
+
+/* Primary Nav Section
+=================================================================== */
+.primarynav-section .btn-navbar {
+  background-color: lighten($baseColor, 30);
+  @include buttonBackground(lighten($baseColor, 32), lighten($baseColor, 13));
+  border-color: darken($baseColor, 10);
+}
+
+/* Primary Nav
+------------------------------------------------------------------- */
+.primary-nav {
+  $gradientTop:     lighten($baseColor, 10);
+  $gradientBottom:  lighten($baseColor, 3);
+  $colorFoldLight:  lighten($baseColor, 15);
+  $colorFoldDark:   darken($baseColor, 10);
+
+  background: $gradientTop;
+  border: 1px solid darken($baseColor, 10);
+  @include background-image( linear-gradient($gradientTop, $gradientBottom) );
+  @include box-shadow(#{
+    0 1px rgba(255, 255, 255, 0.2) inset,
+    0 -6px 0 -5px $colorFoldLight,
+    0 -6px 0 -4px $colorFoldDark,
+    0 -11px 0 -8px $colorFoldLight,
+    0 -11px 0 -7px $colorFoldDark,
+    0 -16px 0 -11px $colorFoldLight,
+    0 -16px 0 -10px $colorFoldDark,
+    0 -21px 0 -14px $colorFoldLight,
+    0 -21px 0 -13px $colorFoldDark
+  });
+
+  // For Mobile Menu
+  // ---------------
+  .mobilemenu & {
+    @include box-shadow(#{
+      0 1px rgba(255, 255, 255, 0.2) inset,
+      0 1px $colorFoldLight,
+      0 2px $colorFoldDark,
+      0 3px $colorFoldLight,
+      0 4px $colorFoldDark,
+      0 5px $colorFoldLight,
+      0 6px $colorFoldDark,
+      0 7px $colorFoldLight,
+      0 8px $colorFoldDark
+    });
+  }
+}
+
+// Hover and current state
+// --------------------------
+.primary-nav ul:first-child > li > a:hover,
+.primary-nav ul:first-child > .current-menu-item a,
+.primary-nav ul:first-child > .current_page_item a,
+.primary-nav .sf-menu > .sfHover > a {
+  background: darken($baseColor, 3);
+}
+
+/* Top Bar
+------------------------------------------------------------------- */
+.author-menu .menu-inner > a:hover,
+.social-buttons a:hover {
+  color: #fff;
+}
+
+
+/* Section
+=================================================================== */
+.section-title, 
+.primary-sidebar .widget-title, 
+.content-sidebar .widget-title {
+  $color: lighten($baseColor, 23);
+
+  border-top: 3px solid $color;
+
+  &:before, h4 {
+    background: $color;
+  }
+  h4:before {
+    border-color: $color transparent transparent $color;
+  }
+}
+
+
+/* Entry Post
+=================================================================== */
+.entry-top:hover {
+  > a {
+    border-bottom-color: $linkColor;
+  }
+}
+.entry-top .entry-comment-count,
+.entry-top .entry-likes,
+.entry-extra .entry-extra-span {
+  &:hover {
+    background: $linkColor;
+  }
+}
+.entry-header a:hover {
+  color: $linkColor;
+}
+
+
+/* Headlines Post
+=================================================================== */
+.headline-pager {
+  a {
+    border-color: $linkColor;
+  }
+  .selected, a:hover {
+    background: $linkColor;
+  }
+  a:before {
+    background: $linkColor;
+  }
+}
+
+.headline-tabs-nav {
+  li a:hover,
+  .active a {
+    color: $linkColor;
+  }
+}
+
+.headline-slide-nav {
+  .active a, li a:hover {
+    border-bottom-color: $linkColor;
+  }
+}
+
+.headline-full-slide.headline-post-wrapper {
+  .entry-category a {
+    color: lighten($linkColor, 25);
+  }
+}
+
+
+/* Recommended Post
+=================================================================== */
+.recommended-post-wrapper {
+  h4 {
+    color: $linkColor;
+  }
+}
+
+
+/* Post List
+=================================================================== */
+.post-list {
+  .entry-content:before {
+    background: $linkColor;
+  }
+}
+
+
+/* Mini Sidebar
+=================================================================== */
+.mini-sidebar {
+  a:hover {
+    color: $linkColor;
+  }
+}
+
+
+/* Widget Twitter
+------------------------------------------------------------------- */
+.nesia-tweet-list {
+  .jta-tweet-text {
+    background: lighten($baseColor, 66%);
+
+    &:before {
+      border-color: lighten($baseColor, 66%);
+      border-color: lighten($baseColor, 66%) transparent transparent lighten($baseColor, 66%);
+    }
+  }
+
+  .tweet-user-screenname a {
+    &:hover {
+      color: $linkColor;
+    }
+  }
+}
+
+
+/* Widget Tags Cloud
+------------------------------------------------------------------- */
+.widget_tag_cloud a {
+  background: lighten($baseColor, 46.5%);
+
+  &:hover {
+    background: lighten($baseColor, 23%);
+  }
+}
+
+
+/* Widget Categories, links
+------------------------------------------------------------------- */
+.widget_categories {
+  li {
+    background: lighten($baseColor, 66%);
+  }
+  li:hover {
+    background: lighten($baseColor, 41%);
+  }
+}
+
+
+/* Widget Tabs
+------------------------------------------------------------------- */
+.widget_tabs {
+  .tab-nav a:hover:before,
+  .tab-nav .active a:before {
+    background: $linkColor;
+  }
+}
+
+
+/* Single Post
+=================================================================== */
+.entry-date-badge,
+.entry-likes,
+.form_header a {
+  background: lighten($baseColor, 23);
+}
+.entry-date-badge:before {
+  border-top-color: lighten($baseColor, 23);
+}
+#related-articles .tab-content {
+  li:before {
+    background: lighten($baseColor, 46);
+  }
+}
+
+
+/* Comments
+=================================================================== */
+.comment-time,
+.comment-time:before,
+.comment-reply-link:before{
+  color: $linkColor;
+}
+.author-badge {
+  background: $linkColor; 
+}
+
+
+/* Archive Timeline
+=================================================================== */
+.timeline-header h3,
+.time-indicator { 
+  background: $linkColor;
+}
+
+
+/* Single Post on Mobile
+=================================================================== */
+@media (max-width: 767px) {
+  .entry-date-badge:before {
+    border-color: transparent transparent transparent lighten($baseColor, 23);
+  }
+}

@@ -1,0 +1,64 @@
+/****************menu manager****************/
+.nesia_mega_menu_options .nesia_checkbox input{
+display: block;
+float: left;
+margin-bottom: 11px;
+margin-right: 7px;
+}
+
+.nesia_mega_menu, .nesia_mega_label, .item-type-nesia, .item-type-megafied, .nesia_mega_active.menu-item-depth-2 .description-title, .nesia_mega_active.menu-item-depth-3 .description-title{
+display:none;
+}
+
+.menu-item-depth-0 .nesia_mega_menu_d0, .nesia_mega_active.menu-item-depth-1 .nesia_mega_menu_d1, .nesia_mega_active.menu-item-depth-2 .nesia_mega_menu_d2, .nesia_mega_active.menu-item-depth-3 .nesia_mega_menu_d2, .nesia_mega_active.menu-item-depth-4 .nesia_mega_menu_d2, .nesia_mega_active.menu-item-depth-5 .nesia_mega_menu_d2, .nesia_mega_active.menu-item-depth-6 .nesia_mega_menu_d2, .nesia_mega_active.menu-item-depth-7 .nesia_mega_menu_d2, .nesia_mega_active.menu-item-depth-8 .nesia_mega_menu_d2{
+display:block;
+}
+
+#menu-to-edit .item-order{
+    display: inline-block;
+}
+
+/*depth 0 Specials*/
+.nesia_mega_active.menu-item-depth-0 .item-type-megafied{
+display:inline;
+font-size: 9px;
+font-style: italic;
+}
+
+
+/*depth1 specials*/
+.nesia_mega_active.menu-item-depth-1 .field-description, .nesia_mega_active.menu-item-depth-1 .link-to-original, .nesia_mega_active.menu-item-depth-1 .description-title, .nesia_mega_active.menu-item-depth-1 .nesia_default_label, .nesia_mega_active.menu-item-depth-1 .field-url, .nesia_mega_active.menu-item-depth-1 .item-type-default{
+display:none;
+}
+
+.nesia_mega_active.menu-item-depth-1 .nesia_mega_label{
+display:inline;
+}
+
+.nesia_mega_active.menu-item-depth-1 .item-type-nesia{
+display:block;
+color: #333333;
+}
+
+.nesia_mega_active.menu-item-depth-2 .field-description, .nesia_mega_active.menu-item-depth-3 .field-description, .nesia_mega_active.menu-item-depth-4 .field-description, .nesia_mega_active.menu-item-depth-5 .field-description, .nesia_mega_active.menu-item-depth-6 .field-description, .nesia_mega_active.menu-item-depth-7 .field-description, .nesia_mega_active.menu-item-depth-8 .field-description{
+display:block;
+}
+
+.nesia_long_desc{
+overflow: hidden;
+display: block;
+}
+
+.nesia_mega_active.menu-item-depth-1 .nesia_label_desc_on_active{
+height:auto;
+width:auto;
+float:none;
+}
+
+.nesia_mega_active .nesia_label_desc_on_active .nesia_supersmall{
+font-size: 11px;
+color:#888;
+display:inline-block;
+padding:0 0 3px 0;
+}
+

@@ -1,0 +1,14 @@
+2012-10-30 - v1.1.1
+ * Add: Options to change number of post on featured, headline and recommended section.
+ * Fix: Author list count of footer.
+ * Fix: CarouFredSel Slider.
+ * Fix: Post Layout on mobile.
+ * Fix: Widget color scheme.
+ * Fix: WP Caption width on mobile.
+
+2012-10-25 - v1.1
+ * Add: 4 new color scheme, black, blue darken, turquoise, red.
+ * Fix: Headlines section posts order.
+
+2012-10-05 - v1.0
+ * Initialize release, wohoo!

@@ -1,0 +1,1127 @@
+/*-------------------------------------------------------------------------------------------*/
+/* Nesia admin styles */
+/*-------------------------------------------------------------------------------------------*/
+
+#nesiaframework_important_update.error { display: block !important; }
+#nesiaframework_update.updated { display: block !important; }
+#theme_update.updated { display: block !important; } /* Except for the theme update notifier */
+
+#nesia_container  { 
+  margin-top: 15px; 
+  width: 827px; 
+  position:relative; 
+  z-index: 0;
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 75px;
+}
+
+#nesia_container #header {
+  width: auto;
+  height: 80px;
+  border: 1px solid #34537f;
+  border-bottom: none;
+  background: #616771;
+  background: -moz-linear-gradient(top, #616771 0%, #3d454c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#616771), color-stop(100%,#3d454c));
+  background: -webkit-linear-gradient(top, #616771 0%,#3d454c 100%);
+  background: -o-linear-gradient(top, #616771 0%,#3d454c 100%);
+  background: -ms-linear-gradient(top, #616771 0%,#3d454c 100%);
+  background: linear-gradient(top, #616771 0%,#3d454c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616771', endColorstr='#3d454c',GradientType=0 );
+}
+
+#nesia_container #header .logo  { 
+  float: right; 
+  height: 38px;
+  margin: 15px 27px 0 0;
+}
+#nesia_container #header .theme-info  { 
+  float: left; 
+  padding-left: 18px;
+  margin: 30px 0 0 27px;
+  background: url(images/icon-info.png) no-repeat left center
+}
+#nesia_container #header .theme-info span {
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+}
+#nesia_container #header .theme-info b { font-size: 11px; text-transform: none; color: #444; font-weight: 100; }
+
+#nesia_container #support-links {
+  height: 32px;
+  width: 620px;
+  padding: 0 0 0 15px;
+  margin-left: 190px;
+  position: absolute;
+  bottom: 20px;
+}
+
+#nesia_container #support-links ul { margin: 0; }
+#nesia_container #support-links ul li  { display: inline; margin: 0 25px 0 0; }
+#nesia_container #support-links ul li a:link, #support-links ul li a:visited  { line-height: 32px; font-size: 10px; font-weight: bold; text-transform: uppercase; text-decoration: none; color: #555; text-shadow: 1px 1px 0 #fff; }
+#nesia_container #support-links ul li a:hover  { color: #222; }
+#nesia_container #support-links ul li.changelog  { padding: 2px 0 2px 20px; background: url(images/ico-changelog.png) no-repeat left center; }
+#nesia_container #support-links ul li.docs  { padding: 1px 0 1px 20px; background: url(images/ico-docs.png) no-repeat left center; }
+#nesia_container #support-links ul li.forum  { padding: 1px 0 1px 20px; background: url(images/ico-forum.png) no-repeat left center; }
+#nesia_container #support-links ul li.right { float:right; margin-right:15px; display: none}
+
+#nesia_container #main  {
+  border-left: 1px solid #2a2a2a;
+}
+
+#nesia_container #main #content  { position: relative; margin-left: 190px; }
+
+#nesia_container #nesia-nav-shadow {
+  display:none;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  /*background: transparent url(images/menu-shadow.png) repeat-y top right;*/
+  width: 6px;
+  z-index: 999;
+}
+
+
+#nesia_container #nesiaform  { }
+#nesia_container #nesia-nav {
+  float: left;
+  position: absolute;
+  top: 81px;
+  bottom: 160px;
+  z-index: 9999;
+  width: 190px;
+  background: #313131;
+  border-top: 1px solid #0a0f17;
+}
+
+#nesia_container.add #nesiaform-content-builder #nesia-nav, #nesia_container.edit #nesiaform-content-builder #nesia-nav { top: 150px; }
+#nesia_container #nesia-nav ul { margin:0; }
+#nesia_container #nesia-nav li { margin-bottom:0; position: relative;}
+#nesia_container #nesia-nav ul li:last-child a:link, #nesia-nav ul li:last-child a:visited { border-bottom: none }
+#nesia_container #nesia-nav ul li a:link, #nesia-nav ul li a:visited {
+  color: #fff;
+  display: block;
+  background: #313131;
+  text-decoration: none;
+  padding: 7px 10px 7px 10px;
+  border-top: 1px solid #464646;
+  border-bottom: 1px solid #222;
+  font: bold 12px/18px sans-serif;
+}
+
+#nesia_container #nesia-nav ul li.current a:link, #nesia_container #nesia-nav ul li.current a:visited  {
+  background: #222;
+  border-bottom-color: #181818
+}
+body.js #nesia_container #nesia-nav li.current ul.sub-menu, body.js #nesia_container #nesia-nav li.current ul.sub-menu li a { margin-left:0; }
+
+#nesia-nav li .arrow   {
+  display: none;
+  top: 1px;
+	cursor: auto;
+	position: absolute;
+	left: -1000px;
+	margin: 0;
+	height: 32px;
+	width: 5px;
+}
+
+
+#nesia-nav li .arrow div {
+ 	position: absolute;
+	-moz-transform: matrix(-0.6,1,0.6,1,0,0);
+	-webkit-transform: matrix(-0.6,1,0.6,1,0,0);
+	-o-transform: matrix(-0.6,1,0.6,1,0,0);
+	-ms-transform: matrix(-0.6,1,0.6,1,0,0);
+	transform: matrix(-0.6,1,0.6,1,0,0);
+    height: 17px;
+	width: 17px;
+	top: 7px;
+	left: -2px;
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	background: #222;
+	border-color: #222;
+}
+#nesia-nav li.has-children:hover .arrow {
+	display: block;
+	z-index: 9999;
+	-moz-transform: translate(1183px);
+	-webkit-transform: translate(1183px);
+	-o-transform: translate(1183px);
+	-ms-transform: translate(1183px);
+	transform: translate(1183px);
+	background: #222;
+}
+
+#nesia-nav li.current .arrow, #nesia-nav li.has-children.current .arrow   {
+	left: -1px;
+  z-index: 9997;
+  display: block;
+  background: #1275d1
+}
+
+#nesia_container #nesia-nav ul li.current .arrow div {
+  display: none;
+	border: none;
+	background-color: #777;
+	background-image: -ms-linear-gradient(right bottom,#6d6d6d,#808080);
+	background-image: -moz-linear-gradient(right bottom,#6d6d6d,#808080);
+	background-image: -o-linear-gradient(right bottom,#6d6d6d,#808080);
+	background-image: -webkit-gradient(linear,right bottom,left top,from(#6d6d6d),to(#808080));
+	background-image: -webkit-linear-gradient(right bottom,#6d6d6d,#808080);
+	background-image: linear-gradient(right bottom,#6d6d6d,#808080);
+}
+
+.admin-color-classic #nesia_container #nesia-nav ul li.current a:link, #nesia_container #nesia-nav ul li.current a:visited  {
+	/*border-top-color: #5A8FAD;
+	border-bottom-color: #5589AA;
+	background-color: #5589AA;
+	background-image: -ms-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -moz-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -o-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -webkit-gradient(linear,left bottom,left top,from(#5589AA),to(#619bbb));
+	background-image: -webkit-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: linear-gradient(bottom,#5589AA,#619bbb);*/
+}
+.admin-color-classic #nesia-nav li.current .arrow, .admin-color-classic #nesia-nav li.has-children.current .arrow   {
+	background-color: #5589AA;
+	background-image: -ms-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -moz-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -o-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -webkit-gradient(linear,left bottom,left top,from(#5589AA),to(#619bbb));
+	background-image: -webkit-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: linear-gradient(bottom,#5589AA,#619bbb);
+}
+
+.admin-color-classic #nesia_container #nesia-nav ul li.current .arrow div {
+	border: none;
+	background-color: #5589AA;
+	background-image: -ms-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -moz-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -o-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: -webkit-gradient(linear,left bottom,left top,from(#5589AA),to(#619bbb));
+	background-image: -webkit-linear-gradient(bottom,#5589AA,#619bbb);
+	background-image: linear-gradient(bottom,#5589AA,#619bbb);
+}
+
+#nesia_container #nesia-nav ul li a:hover,
+#nesia_container #nesia-nav .has-children:hover > a { background-color: #222; }
+#nesia_container #nesia-nav ul li.current a:hover  { color: #fff; }
+
+#nesia_container #nesia-nav li ul  { background: #fff; border-bottom: 1px solid #DFDFDF; padding:5px 0; }
+#nesia_container #nesia-nav li ul li  { border: none; }
+
+/*-------------------------------------------------------------------------------------------*/
+/* Sub-Menu Navigation */
+/*-------------------------------------------------------------------------------------------*/
+
+body.js #nesia_container #nesia-nav ul.sub-menu { display: none; margin: 0 1px; }
+#wpwrap #nesia_container #nesia-nav li.top-level:hover { background-color: #e4e4e4; }
+#wpwrap #nesia_container #nesia-nav li.top-level:hover .flyout-menu { display: block; }
+#wpwrap #nesia_container #nesia-nav li.top-level.open:hover .flyout-menu { display: none; }
+body.js #nesia_container #nesia-nav .flyout-menu { 
+  z-index: 9998; 
+  display: none; 
+  position: absolute; 
+  left: 190px; 
+  margin-top: -35px; 
+  width: 170px; 
+  border: 1px solid #222;
+  border-bottom: none;
+  box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.4 );
+}
+body.js #nesia_container #nesia-nav .flyout-menu ul  { border: none; padding:0;}
+#wpwrap #nesia_container #nesia-nav .flyout-menu li a { 
+  padding-left: 20px;
+  border-top: 1px solid #464646;
+  border-bottom: 1px solid #222
+}
+body.js #nesia_container #nesia-nav li.open .flyout-menu { display: none; }
+#wpwrap #nesia_container #nesia-nav .sub-menu a, 
+#wpwrap #nesia_container #nesia-nav .flyout-menu a { 
+  background-color: #313131; 
+  background-image: none; 
+  border-bottom: 0; 
+  padding: 7px 10px 7px 10px; 
+  border: none; 
+  color: #fff; 
+}
+#wpwrap #nesia_container #nesia-nav .sub-menu a  {
+  background: #fff;
+  color: #222;
+}
+#wpwrap #nesia_container #nesia-nav .sub-menu a:hover,
+#wpwrap #nesia_container #nesia-nav .sub-menu .active a { background: #eee; color: #222; }
+#wpwrap #nesia_container #nesia-nav .flyout-menu a:hover { background-color: #222; color: #fff; }
+#wpwrap #nesia_container #nesia-nav .sub-menu .active a, 
+#wpwrap #nesia_container #nesia-nav .flyout-menu .active a { color: #333333; font-weight: bold; }
+
+#nesia_container #content {
+  float: left;
+  width: 635px;
+  min-height: 650px;
+  margin-left: -1px;
+  font-family: sans-serif;
+  background-color: #fff;
+  border-top: 1px solid #34537f;
+  border-right: 1px solid #d9d9d9;
+}
+
+
+#nesia_container #content .group h1 { display:none; padding: 20px 0; margin: 0 0 20px; font-size: 23px; color:#464646; font-weight:normal; border-bottom: 1px solid #e0e0e0; }
+
+#nesia_container #content .section {
+  position: relative;
+  padding: 0 20px 15px 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+#nesia_container #content .section:last-child {
+  border-bottom: none
+}
+#nesia_container #content .section:hover:after {
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  width: 3px;
+  content: "";
+  position: absolute;
+  background: #88bae8
+}
+
+#nesia_container #content .section h3.heading  { font-size:1.1em; margin: 0 0 5px; padding: 22px 0px 7px; color: #222 }
+#nesia_container #content .section.section-info { border-bottom: none; margin:0; }
+#nesia_container #content .section .controls  { float: left; width: 345px; margin: 0 15px 0 0; }
+#nesia_container #content .section .explain  { float: left; width: 235px; padding: 0 0 0 0; font-size: 11px; color: #555; font-family: sans-serif; }
+
+/* Make Controls box full width only on section-ads */
+#nesia_container #content .section.section-ads .controls { margin: 0; width: 100%; position: relative }
+#nesia_container #content .section.section-ads .controls textarea { width: 595px; margin-bottom: 30px !important }
+#nesia_container #content .section.section-ads .controls .nesia-input { float: left }
+#nesia_container #content .section.section-ads .controls input[type="text"] { width: 240px !important }
+#nesia_container #content .section.section-ads .controls input[type="text"] + input[type="text"] { margin-left: -2px }
+#nesia_container #content .section.section-ads .explain { width: 100%; margin-top: 10px }
+#nesia_container #content .section.section-ads .controls:after {
+  content: "or";
+  left: 50%;
+  width: 10px;
+  top: 147px;
+  padding: 0 5px;
+  margin-left:-7px;
+  background: #fff;
+  font-weight: bold;
+  position: absolute;  
+}
+#nesia_container #content .section.section-ads .controls:before {
+  left: 0;
+  content: "";
+  width: 100%;
+  bottom: 59px;
+  height: 1px;
+  position: absolute;
+  border-top: 1px solid #e5e5e5
+}
+
+
+#nesia_container #content .section-checkbox .controls { width:25px}
+#nesia_container #content .section-checkbox .explain { width:540px}
+
+#nesia_container #content .section-color .controls { width:345px}
+#nesia_container #content .section-color .explain { width:235px}
+
+#nesia_container #content .section-info  h3.heading {
+ font-size: 12px; font-weight: 100; border: 0; margin-top: 20px; letter-spacing: 1px;  border-top: 1px solid #FFF298; margin-bottom: 0; background:#EFE186; padding: 10px 20px; }
+#nesia_container #content .section-info  .controls { margin: 0 0 10px; padding: 15px 20px; width: auto; line-height: 1.5em; font-size: 14px; font-style: italic; font-family: Georgia, serif; background: #FFF298; border:1px solid #ECD852; color:#424242;}
+#nesia_container #content .section-info  .controls small { font-size: 12px}
+
+#nesia_container #content .section-info  h3.heading {
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+}
+#nesia_container #content .section-info .controls{ 
+	float:none;
+	-moz-border-radius-bottomleft:4px;
+	-moz-border-radius-bottomright:4px; 
+}
+
+#nesia_container textarea, #nesia_container input, #nesia_container select {
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-border-radius:2px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#nesia_container .controls input,#nesia_container .controls select,#nesia_container .controls textarea {
+    margin-bottom: 9px !important;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    width: 340px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color:#555;
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+#nesia_container .controls input:hover,#nesia_container .controls select:hover,#nesia_container .controls textarea:hover { color:#333; background: #fff;}
+
+#nesia_container .controls input.upload { width:225px; padding-bottom:6px; }
+#nesia_container .controls input.upload_button{ float:right; width:90px; border-color:#BBBBBB; cursor:pointer; height:20px; }
+#nesia_container .controls input.upload_button:hover { border-color:#666666; color:#000; }
+
+#nesia_container .section-upload_min .controls input.upload_button { float: left; }
+
+#nesia_container .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+	z-index: 1;
+}
+
+#nesia_container .screenshot img {
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-border-radius:2px;
+	background:#FAFAFA;
+	border-color:#CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+}
+
+#nesia_container .screenshot .mlu_remove, #nesia_container .typography-preview-container .preview_remove { 
+
+	background:url( "images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:-4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+
+#nesia_container .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+
+#nesia_container .screenshot .no_image .mlu_remove {
+	bottom: 0px;
+}
+
+
+/* SELECT DROPDOWN */
+#nesia_container #content select.nesia-input {
+	cursor:pointer;
+	height:28px;
+	margin:0;
+	opacity:0;
+	padding:0;
+	position:relative;
+	width:inherit;
+	z-index:4;
+}
+
+#nesia_container #content .select_wrapper {
+  font-family: sans-serif;
+  font-size: 12px;
+  background: #fafafa url(images/select.png) no-repeat right center;
+  border: 1px solid #ccc;
+  float: left;
+  height: 32px;
+  margin: 0;
+  margin-bottom: 9px !important;
+  width: 340px;
+  display: block;
+  color: #555;
+}
+#nesia_container #content .option-type .select_wrapper {
+	background-color: #fff;
+}
+#nesia_container #content .select_wrapper:hover {
+	color: #333;
+}
+#nesia_container #content .select_wrapper span {
+	height: 32px;
+	line-height: 32px;
+	position: absolute;
+	z-index: 2;
+	padding-left: 6px;
+}
+
+
+#nesia_container .colorSelector { margin-top:1px; }
+#nesia_container .colorSelector:hover { cursor:pointer; }
+#nesia_container .controls select { padding: 6px 4px; width: 340px }
+#nesia_container .controls select:hover { cursor: pointer;}
+#nesia_container .controls textarea {width: 340px; resize: vertical }
+
+#nesia_container input[type=text], #nesia_container select { height:32px; }
+#nesia_container input[type=text]  { width: 340px; }
+
+#nesia_container input.nesia-input-calendar  { width: 320px; }
+
+#nesia_container input.checkbox  { width: 30px; margin-top: 1px; margin-bottom: 0 !important }
+#nesia_container input.nesia-radio { width: 30px; }
+#nesia_container .controls .radio-wrapper  { margin: 0 0 10px 0; }
+#nesia_container .controls .radio-wrapper input  { margin-bottom: 0!important; }
+
+#nesia_container .controls .input-text-small { width: 60px; margin-right:10px}
+#nesia_container .meta-two { margin-right:10px}
+
+#nesia_container .controls .nesia-color {float:left; width: 70px; margin-left:5px; /* font-size:20px; height:34px;*/}
+
+#nesia_container #content .section-typography .controls  { width:440px }
+#nesia_container #content .section-typography .explain  { width:140px }
+
+#nesia_container .controls .nesia-typography-size { width:50px; float:left}
+#nesia_container .controls .nesia-typography-unit { width:50px; float:left}
+#nesia_container .controls .nesia-typography-face { width:100px; float:left}
+#nesia_container .controls .nesia-typography-style { width:80px; float:left}
+#nesia_container .controls .nesia-typography-preview-button { float: left; margin: 3px 0 0 5px; }
+#nesia_container .controls .nesia-typography-preview-button span { background: transparent url(images/ico-preview.png) no-repeat center center; display: block; text-indent: -9999px; width: 14px; height: 16px; }
+#nesia_container .controls .nesia-typography-preview-button span.refresh { background-image: url(images/ico-refresh.png); }
+#nesia_container .typography-preview-container { clear: both; }
+#nesia_container .typography-preview-container .preview_remove { position: relative; float: right; margin-bottom: -10px; margin-right: -10px; z-index: 99; }
+#nesia_container .typography-preview { word-wrap: break-word; clear: both; padding: 20px; border: 1px solid #CCCCCC; background: #FDFDFD; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+
+.wf-loading #nesia_container .typography-preview.current { background: #FDFDFD url(images/loading-bottom.gif) no-repeat 560px center; } /* Class is dynamically added to the "html" tag. */
+
+/* Type: Images */
+#nesia_container .controls .nesia-radio-img-img {
+  padding: 3px;
+  /*margin: 0 5px 10px 0;*/
+  display: block;
+  margin: 0 auto;
+}
+#nesia_container .section-images input {
+  display: none
+}
+#nesia_container .section-images .controls > span {
+  float: left;
+  margin: 0 5px 10px 0;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  /*background: #313131;*/
+  background: #fff;
+  border: 2px solid #0A0F17;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px rgba(255,255,255,.4) inset;
+  -moz-box-shadow: 0 1px rgba(255,255,255,.4) inset;
+  box-shadow: 0 1px rgba(255,255,255,.4) inset;
+}
+#nesia_container .section-images .controls > .nesia-radio-img-selected,
+#nesia_container .section-images .controls > span:hover {
+  border-color: #1275D1
+}
+#nesia_container .section-images .nesia-radio-img-label {
+  display: none
+}
+
+
+#nesia_container .controls .nesia-border-width { width:80px; float:left}
+#nesia_container .controls .nesia-border-style { width:120px; float:left}
+
+#nesia_container .controls select.nesia-select-timestamp { float: left; width: 50px; }
+
+#nesia_container .group { padding-bottom: 20px; }
+
+#nesia_container input:focus,#nesia_container select:focus, #nesia_container textarea:focus { 
+  outline: 0;
+  background:#fff;
+  border-color: #349ef6;
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  outline: thin dotted \9;
+  /* IE6-9 */
+}
+
+#nesia_container .happy {
+    background: #DBF6BE no-repeat 10px center;
+    border: solid #9BBF65;
+    border-width: 0px 1px 1px 1px;
+    color: #060;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+#nesia_container  .warning {
+    background: #ffeeee no-repeat 10px center;;
+    border: solid #dfbfbf;
+    border-width: 0px 1px 1px 1px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+#nesia_container .update_available {
+
+    background: #FFFEEB no-repeat 10px center;;
+    border: solid #CCCCCC;
+    border-width: 0px 1px 1px 1px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+
+	
+	
+}
+
+/*
+#nesia_container .nesia-uploaded-image { border:2px solid #dedede; -moz-border-radius: 3px; display:block;}
+#nesia_container .nesia-uploaded-image img {margin:5px;display:block}
+*/
+
+#nesia_container .nesia-save-popup { position:absolute; -moz-border-radius:12px; background:rgba(0,0,0,0.4); color:#fff; font-size:24px; text-align:center; display:none; z-index: 10; }
+
+#nesia_container .nesia-save-save { background:url(images/happy.png) 20px 50% no-repeat; padding:30px 30px 30px 70px}
+#nesia_container .nesia-save-reset { background:url(images/warning.png) 20px 50% no-repeat; padding:30px 30px 30px 70px}
+
+.upload_button_div { margin-bottom: 10px;}
+.upload_button_div .button { padding:4px 14px;
+}
+.upload_button_div  .image_reset_button { margin-left:10px}
+
+.upload-error { float:left;color:#666; font-size:10px; font-weight:bold; text-decoration:none; text-shadow:1px 1px 0 #FFFFFF;
+				  margin: 0 10px 0 0; padding:3px 10px; background:#FFDFEC; -moz-border-radius:4px}
+
+.save_bar_top {
+  width: 595px;
+  overflow: hidden;
+  text-align: right;
+  background: #f3f3f3;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #d0d0d0;
+  padding: 23px 20px 23px 210px;
+}
+#nesiaform-reset { float:left; }
+#nesia_container .save_bar_top input.button {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 22px;
+  text-transform: uppercase;
+  font-size: 11px !important;
+  text-shadow: 0 -1px rgba(0,0,0,.4) !important;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+#nesia_container .save_bar_top input.button:hover { background-position: 0 -15px }
+#nesia_container .save_bar_top input.button:active {
+  -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2) inset;
+  -moz-box-shadow: 0 3px 5px rgba(0,0,0,.2) inset;
+  box-shadow: 0 3px 5px rgba(0,0,0,.2) inset;
+}
+
+
+#nesia_container .save_bar_top input.submit-button {
+  float: left;
+  margin-right: 13px;
+  border-color: #3e780e;
+  background: #95ce53;
+  background: -moz-linear-gradient(top, #95ce53 0%, #69b90b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#95ce53), color-stop(100%,#69b90b));
+  background: -webkit-linear-gradient(top, #95ce53 0%,#69b90b 100%);
+  background: -o-linear-gradient(top, #95ce53 0%,#69b90b 100%);
+  background: -ms-linear-gradient(top, #95ce53 0%,#69b90b 100%);
+  background: linear-gradient(top, #95ce53 0%,#69b90b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95ce53', endColorstr='#69b90b',GradientType=0 );
+  background-repeat: no-repeat
+}
+#nesia_container .save_bar_top input.submit-button:hover {
+  background-color: #69b90b;
+}
+#nesia_container .save_bar_top input.reset-button {
+  background: #ee5f5f;
+  border-color: #ab0f25;
+  background: -moz-linear-gradient(top, #ee5f5f 0%, #e71c1c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ee5f5f), color-stop(100%,#e71c1c));
+  background: -webkit-linear-gradient(top, #ee5f5f 0%,#e71c1c 100%);
+  background: -o-linear-gradient(top, #ee5f5f 0%,#e71c1c 100%);
+  background: -ms-linear-gradient(top, #ee5f5f 0%,#e71c1c 100%);
+  background: linear-gradient(top, #ee5f5f 0%,#e71c1c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee5f5f', endColorstr='#e71c1c',GradientType=0 );
+  background-repeat: no-repeat;
+}
+#nesia_container .save_bar_top input.reset-button:hover {
+  background-color: #e71c1c;
+}
+
+.hide {display:none}
+
+.ajax-loading-img-top { margin: 8px 4px 0; float:left}
+.ajax-loading-img-bottom {}
+
+.nesia-option-image { max-width:340px; }
+
+#nesia_container .mini .controls select, #nesia_container #content .section .mini .controls {width: 70px; }
+#nesia_container .mini .controls input, #nesia_container #content .mini .controls {width: 70px; }
+
+#nesia_container #content .mini .explain { width:500px; }
+
+.nesia-notice { background: #ffd1d1 ; border:1px solid #DFA8A7; -moz-border-radius:8px; text-align: center; margin-bottom: 15px  }
+
+/*-------------------------------------------------------------------------------------------*/
+/* FEEDS PAGE */
+/*-------------------------------------------------------------------------------------------*/
+
+		.themes-page div.info { height: 30px; margin-top: 10px; }
+		.themes-page div.info a {  float:left; margin: 0 10px 0 0; padding:3px 10px; background:#D7E6F2; -moz-border-radius:4px}
+		.themes-page div.info a:link,
+		.themes-page div.info a:visited { color:#21759B; font-size:10px; font-weight:bold; text-decoration:none; text-shadow:1px 1px 0 #FFFFFF;}
+		.themes-page div.info a:active,
+		.themes-page div.info a:hover{color:#155876;}
+
+        ul.themes li.theme {border-bottom: 1px #ddd solid; padding: 20px 0;  height:230px}
+        ul.themes li.theme span{ display:block; float: left}
+        ul.themes li.theme span img{  }
+        ul.themes li.theme div {margin-left: 310px; }
+        ul.themes li.theme div h2 { font-size: 20px; background: #eee; padding: 0px 10px; margin-bottom: 10px; border-bottom:1px #ddd solid; border-top:1px #e1e1e1 solid}
+        ul.themes li.theme div h2 a:link, 
+        ul.themes li.theme div h2 a:visited {  color: #555; text-decoration: none; font-style: normal;}
+        
+        ul.themes li.theme div p { width: 450px; padding-left: 5px;}
+        ul.themes li.theme div p{ font-size: 12px!important;  margin: 10px 10px 10px 10px; }
+        ul.themes li.theme div ul {padding-left: 0px; color: #ccc; float:left; border-top:#eee 1px solid; padding-top: 10px;margin-left:20px }
+        ul.themes li.theme div ul li { list-style: disc; list-style-position:inside;  }
+        ul.themes li.theme div ul li a:link, 
+        ul.themes li.theme div ul li a:visited { font-size: 12px!important; text-decoration: none;}
+        ul.themes li.theme div ul li a:hover, 
+        ul.themes li.theme div ul li a:active { text-decoration: underline ;}
+
+/*-------------------------------------------------------------------------------------------*/
+/* SIDEBAR MANAGER */
+/*-------------------------------------------------------------------------------------------*/
+
+#wpcontent #nesia_container #content.sbm-content { width: 825px; padding-top:20px; margin-left: 0; border-right: 1px solid #D8D8D8; }
+
+#nesia_container #content.sbm-content .info-box  { position: relative; margin: 0 0 20px 186px; padding: 0 12px; background: #fff298; border: 1px solid #ecd852; }
+#nesia_container #content.sbm-content .info-box h2  { font: bold 14px Helvetica, Arial, sans-serif; text-transform: uppercase; }
+#nesia_container #content.sbm-content .info-box p  { margin: 5px 0 10px; font-family: Helvetica, Arial, sans-serif; }
+#nesia_container #content.sbm-content .info-box .btn-close  { position: absolute; top: 7px; left: 570px; }
+
+#sbm-sidebar  { float: left; width: 186px; margin: 0 20px 0 0; }
+#sbm-main  { position: relative; margin-left: 190px; padding: 0 20px }
+
+#nesia_container #nesia-sbm-menu { min-width: 186px; border: none }
+#nesia_container #nesia-sbm-menu h3  { 
+  padding: 10px 9px; 
+  font-size: 12px; 
+  cursor: default;
+  margin: 0;
+  color: #fff;
+  background: #121212;
+  border-bottom: #222;
+  text-shadow: 0 1px rgba(0,0,0,.5)
+}
+#nesia_container #nesia-sbm-menu ul ul{ 
+  margin: 0;
+  color: #f0f0f0;
+  background: #222;
+  padding: 8px 10px;
+  border-top: 1px solid #121212;
+  border-bottom: 1px solid #121212
+}
+#nesia_container #nesia-sbm-menu ul li { cursor: pointer}
+#nesia_container #nesia-sbm-menu ul li a { display: block; font-size: 12px; font-weight: bold; text-transform: uppercase; color: #333; text-decoration: none; }
+#nesia_container #nesia-sbm-menu ul li a:hover, #nesia_container #nesia-sbm-menu ul li li:hover  { color: #757575; }
+#nesia_container #nesia-sbm-menu ul ul li { margin-bottom: 4px; }
+#nesia_container #nesia-sbm-menu ul ul li span { display: none}
+ul#nesia-sbm-menu_ul li a span { 
+  color: #999;
+  float: right;
+  font-size: 10px;
+}
+
+#nesia_container h3 { margin: 0 0 10px 0}
+#nesia_container h3 span { font-size: 10px; color: #ccc}
+#nesia_container .nesia-sbm-tip { display:block; padding: 15px 15px 15px 15px; margin-bottom: 10px; background: #EDFCD5; text-shadow: 0 1px 0 #FFFFFF; border: 1px solid #D4EBAF; font: italic 13px/1.5em Georgia, serif;
+}
+
+#nesia_container #nesia-sbm-get-links { display:  none; }
+
+#nesia-sbm-toggle-info  { float: right; margin: 3px 5px 0 0; text-decoration: none; text-transform: uppercase; font-size: 11px; }
+#nesia-sbm-toggle-info img  { vertical-align: top; padding: 0 0 0 5px; }
+
+#nesia_container .nesia-sbm-builder { position: relative}
+#nesia_container .nesia-sbm-builder .nav-tabs-nav  { margin: 0 0 0 10px; }
+#nesia_container .nesia-sbm-builder .nav-tab  { background: #F4F4F4; font-size: 11px; border-bottom: 1px solid #ccc; }
+#nesia_container .nesia-sbm-builder .nav-tab-active  { font-weight: bold; background: #ececec; border-bottom: 1px solid #ececec; }
+#nesia_container .nesia-sbm-builder .builder-header  {padding: 10px; border: 1px solid #ccc; border-width: 1px 1px 0; background: url( "images/gray-grad.png") repeat-x scroll left top #DFDFDF; border-top-right-radius: 6px; -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; border-top-left-radius: 6px; -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; }
+#nesia_container .nesia-sbm-builder label { display: block; margin-bottom: 0px; padding: 5px 0; font-size: 12px}
+#nesia_container .nesia-sbm-builder label span { float:left; width: 130px; font-weight: 700; text-align: right; margin-right: 10px}
+#nesia_container .nesia-sbm-builder #nesia-sbm-label-sb-name span  { padding-top: 5px; }
+#nesia_container .nesia-sbm-builder #nesia-sbm-builder-body label span  { font-size: 13px; color: #333; padding-top: 3px; }
+#nesia_container .nesia-sbm-builder #nesia-sbm-builder-body select  { width: 330px; }
+#nesia_container .nesia-sbm-builder #sidebar-description  { width: 330px!important; height: 80px; }
+#nesia_container .nesia-sbm-builder #sidebar-title  { width: 330px; padding: 5px 0 6px 5px; }
+#nesia_container .nesia-sbm-builder .nesia-sbm-controls .button  { width: 90px!important; margin-right: 23px; }
+#nesia_container .nesia-sbm-builder #nesia-sbm-more-info { text-align: center; display: block; font-size: 11px; text-transform: uppercase }
+#nesia_container .nesia-sbm-builder-edit { float:none; width: auto; margin:0; padding: 10px 0 0; border: 0; background: transparent none;}
+#nesia_container .nesia-sbm-builder-edit input { width: 230px; }
+
+#nesia_container #nesia-sbm-response-builder input { font-size: 12px; padding: 3px; width: 280px}
+
+#nesia_container #nesia-sbm-sidebars {margin-top: 20px; padding-top: 20px; border-top: 1px solid #eee }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit  { padding: 0 0 30px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li dt  { width: 492px; cursor: default; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings .description-thin  { width: 236px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings .description-wide  { width: 481px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings p label input, #nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings p label select, #nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings p label textarea  { margin-top: 5px;}
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings p  { margin-bottom: 20px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings .menu-item-actions  { padding: 0; margin-top: -8px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li.menu-item-depth-1  { margin-left: 15px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li.menu-item-depth-1 dt  { width: 477px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li.menu-item-depth-1 .menu-item-settings  { width: 477px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li.menu-item-depth-1 .menu-item-settings .description-thin  { width: 336px; }
+#nesia_container #nesia-sbm-sidebars #menu-to-edit li .menu-item-settings p label  { z-index: 9999; position: relative; }
+
+
+#nesia_container .menu-item-depth-1 { margin-left: 30px; }
+
+
+#nesia_container #nesia-sbm-builder-meta { display: none; font-size: 11px; padding: 0px; background: #fff; color: #555; border: 1px solid #ccc; width: 320px; position: absolute; top:-185px; right:0;
+	 box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+}
+#nesia_container #nesia-sbm-builder-meta label { font-size: 11px; border-bottom: #ccc 1px solid;  padding: 5px 10px }
+#nesia_container #nesia-sbm-builder-meta label span { text-transform: uppercase; width: 40px; text-align: right; padding-right: 5px;}
+#nesia_container #nesia-sbm-builder-meta label.last { overflow:hidden; height:18px} 
+
+#nesia_container #nesia-sbm-builder-body { padding: 10px; background: #f3f3f3;border: 1px solid; border-color: #fff #e3e3e3 #e3e3e3 #ddd;}
+#nesia_container #nesia-sbm-builder-body label { border:0px;}
+#nesia_container #nesia-sbm-builder-body label span {  color:#999; font-family: georgia,arial; font-size: 1.2em; font-weight: 100; font-style:italic}
+#nesia_container .nesia-sbm-builder label span  { position: relative; z-index: 9999; }
+
+#nesia_container #nesia-sbm-builder-meta-top { padding: 5px 10px; background: #ccc; color: #000; font-size: 14px; text-transform: uppercase }
+#nesia_container #nesia-sbm-builder-meta-bottom {}
+
+#nesia_container #nesia-sbm-builder-part-assign { display: none}
+#nesia_container #nesia-sbm-builder-message { display:block; font-size: 11px; padding: 10px 0; cursor: pointer; text-decoration: underline; color:green; font-weight: 700;}
+#nesia_container #nesia-sbm-builder-message:hover { text-decoration: none;}
+#nesia_container .nesia-sbm-controls {height:20px; margin-top: 15px}
+#nesia_container .nesia-sbm-controls .button { float:right}
+
+#nesia_container .saved_sidebar { background: #D7E6F2; border:1px solid #C2CFDF; font-size: 13px; margin-bottom: 3px; padding: 5px 10px}
+#nesia_container .piggy { margin-left: 6px; background: #C9D9E6; padding: 0px 10px;font-size: 11px}
+#nesia_container .delete-sidebar { float:right; font-size: 9px; color: red; margin-left: 15px}
+#nesia_container .edit-sidebar { float:right; font-size: 9px; color: green}
+
+/* Nav Menu - From wordnesia */
+#menu-container .inside { padding-bottom: 10px; }
+
+.menu {
+	padding-top:1em;
+}
+
+#menu-to-edit {
+	padding: 1em 0;
+}
+
+.menu ul {
+	width: 100%;
+}
+.menu ul.sub-menu {
+}
+.menu li {
+	margin-bottom: 0;
+	position:relative;
+}
+.menu-item-bar {
+	clear:both;
+	line-height:1.5em;
+	position:relative;
+	margin-top: 13px;
+}
+.menu-item-handle {
+	border: 1px solid #E6E6E6;
+	position: relative;
+	padding-left: 10px;
+	height: auto;
+	width: 400px;
+	line-height: 35px;
+	text-shadow: 0 1px 0 #FFFFFF;
+	font-weight:bold;
+	overflow: hidden;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	word-wrap: break-word;
+}
+.menu-item-edit-active .menu-item-handle {
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-khtml-border-bottom-right-radius: 0;
+	-khtml-border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.no-js .menu-item-edit-active .item-edit {
+	display: none;
+}
+.js .menu-item-handle {
+	cursor: move;
+}
+.menu li.deleting .menu-item-handle {
+	background-color: #f66;
+	background-image: none;
+	text-shadow: 0 0 0 #ccc;
+}
+
+.menu-item-handle .item-title {
+	padding: 7px 0;
+	line-height: 20px;
+	display:block;
+	margin-right:13em;
+}
+
+.item-type { text-transform: uppercase; font-size: 11px; color: #999999; padding-right: 10px; }
+.item-controls { font-size: 11px; position: absolute; right: 20px; top: -1px; }
+.item-controls a { text-decoration: none; }
+.item-controls a:hover { cursor: pointer; }
+.item-controls .item-order { padding-right: 10px;}
+.item-controls .item-order a {
+	font-weight:bold;
+}
+
+body.js .item-order {
+	display:none;
+}
+
+.item-controls .menu-item-delete:hover { color: #ff0000; }
+
+.item-edit {
+	background: url( "../../../../wp-admin/images/menu-bits.gif?ver=20100610") no-repeat scroll 0 -105px;
+	position: absolute;
+	right: -20px;
+	top: 0;
+	display: block;
+	width: 23px;
+	height: 36px;
+	overflow: hidden;
+	text-indent:-999em;
+	border-bottom: 1px solid #eee;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-khtml-border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+/* Menu editing */
+.menu-instructions-inactive {
+	display: none;
+}
+.menu-item-settings {
+	background: #F9F9F9;
+	display:block;
+	width: 492px;
+	padding: 10px 0 10px 10px;
+	border: solid #E6E6E6;
+	border-width: 0 1px 1px 1px;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-khtml-border-bottom-right-radius: 6px;
+	-khtml-border-bottom-left-radius: 6px;
+}
+
+
+.menu-item-settings:after {
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0px;
+	visibility: hidden;
+}
+.menu-item-settings input { width: 100%!important}
+
+.menu-item-edit-active .menu-item-settings {
+	display:block;
+}
+
+.menu-item-edit-inactive .menu-item-settings {
+	display:none;
+}
+
+.add-menu-item-pagelinks {
+	margin:.5em auto;
+	text-align:center;
+}
+
+.link-to-original {
+	display: block;
+	margin: 0 0 10px;
+	padding: 3px 5px 5px;
+	font-size: 11px;
+	color: #777;
+	font-style: italic;
+	border: 1px solid #dfdfdf;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+}
+	.link-to-original a {
+		padding-left: 4px;
+		font-style: normal;
+	}
+
+.hidden-field {
+	display: none;
+}
+
+.menu-item-settings .description-thin,
+.menu-item-settings .description-wide {
+	margin-right: 10px;
+	float: left;
+}
+.description-thin {
+	width: 190px;
+	height: 40px;
+}
+.description-wide {
+	width: 390px;
+}
+
+.menu-item-actions {
+	padding-top: 15px;
+}
+
+#cancel-save { cursor: pointer; }
+#cancel-save:hover { color: #fff !important; }
+#update-menu-item { color: #fff !important; }
+#update-menu-item:hover,
+#update-menu-item:active,
+#update-menu-item:focus { color: #eaf2fa !important; border-color: #13455b !important; }
+
+/* String Builder */
+.add_button { height: 50px;}
+.string_option { margin-bottom: 5px; padding: 7px 12px; font-size: 12px; background: #f7f7f7;
+	border: 1px solid #dfdfdf;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+}
+.string_option span { font-weight: 700;}
+.string_option .delete { text-transform: uppercase; font-size:10px; float: right; color: red}
+
+/*-------------------------------------------------------------------------------------------*/
+/* Icons Option panel */
+/*-------------------------------------------------------------------------------------------*/
+
+#nesia_container #nesia-nav ul li span.icon {
+  background-position: 0 -20px;
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin-left: 23px;
+  padding: 16px 0 0 9px;
+  background-image: url(images/option-icon-sprite.png);
+}
+
+#nesia_container #nesia-nav ul li.general span.icon { background-position: 0 10px }
+#nesia_container #nesia-nav ul li.styling span.icon { background-position: 0 -50px }
+#nesia_container #nesia-nav ul li.layout span.icon { background-position: 0 -80px }
+#nesia_container #nesia-nav ul li.image span.icon { background-position: 0 -110px }
+#nesia_container #nesia-nav ul li.connect span.icon { background-position: 0 -170px }
+#nesia_container #nesia-nav ul li.ads span.icon { background-position: 0 -200px }
+
+#nesia_container #nesia-nav ul li.slider span.icon { background-image:url(images/option-icon-slider.png); background-position: 0 10px; }
+/*
+
+
+#nesia_container #nesia-nav ul li.typography span.icon { background-image:url(images/option-icon-typography.png); }
+#nesia_container #nesia-nav ul li.homepage span.icon { background-image:url(images/option-icon-homepage.png); }
+#nesia_container #nesia-nav ul li.media span.icon { background-image:url(images/option-icon-media.png); }
+#nesia_container #nesia-nav ul li.calendar span.icon { background-image:url(images/option-icon-calendar.png); }
+#nesia_container #nesia-nav ul li.slider span.icon { background-image:url(images/option-icon-slider.png); }
+#nesia_container #nesia-nav ul li.box span.icon { background-image:url(images/option-icon-box.png); }
+#nesia_container #nesia-nav ul li.header span.icon { background-image:url(images/option-icon-header.png); }
+#nesia_container #nesia-nav ul li.featured span.icon { background-image:url(images/option-icon-featured.png); }
+#nesia_container #nesia-nav ul li.main span.icon { background-image:url(images/option-icon-main.png); }
+#nesia_container #nesia-nav ul li.sidebar span.icon { background-image:url(images/option-icon-sidebar.png); }
+#nesia_container #nesia-nav ul li.footer span.icon { background-image:url(images/option-icon-footer.png); }
+#nesia_container #nesia-nav ul li.portfolio span.icon { background-image:url(images/option-icon-portfolio.png); }
+#nesia_container #nesia-nav ul li.tumblog span.icon { background-image:url(images/option-icon-tumblog.png); }
+#nesia_container #nesia-nav ul li.nav span.icon { background-image:url(images/option-icon-nav.png); }
+#nesia_container #nesia-nav ul li.audio span.icon { background-image:url(images/option-icon-audio.png); }
+#nesia_container #nesia-nav ul li.misc span.icon { background-image:url(images/option-icon-misc.png); }
+#nesia_container #nesia-nav ul li.maps span.icon { background-image:url(images/option-icon-maps.png); }
+#nesia_container #nesia-nav ul li.searchoption span.icon { background-image:url(images/option-icon-search.png); }
+#nesia_container #nesia-nav ul li.upload span.icon { background-image:url(images/option-icon-upload.png); }
+#nesia_container #nesia-nav ul li.favorite span.icon { background-image:url(images/option-icon-favorite.png); }
+#nesia_container #nesia-nav ul li.listing span.icon { background-image:url(images/option-icon-listing.png); }
+#nesia_container #nesia-nav ul li.post span.icon { background-image:url(images/option-icon-post.png); }
+#nesia_container #nesia-nav ul li.wpsc_presentation span.icon { background-image:url(images/option-icon-cart.png); }
+#nesia_container #nesia-nav ul li.nesiatrends span.icon { background-image:url(images/option-icon-nesiatrends.png); }*/
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* WP E Commerce Plugin Options Panel */
+/*-------------------------------------------------------------------------------------------*/
+
+#wpsc-presentation {
+	min-height: 2650px;
+	width: 600px;
+} 
+
+/*-------------------------------------------------------------------------------------------*/
+/* GENERAL STYLES */
+/*-------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear
+{
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}

@@ -1,0 +1,793 @@
+/*==================================================================== 
+  Global Widgets Styles
+=================================================================== */
+.widget {
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+}
+.widget-title {
+  position: relative;
+  margin-bottom: $baseLineHeight;
+  h4 {
+    font-size: 11px;
+    font-family: $sansFontFamily;
+    text-transform: uppercase;
+  }
+}
+.widget_text {
+  font-size: 13px;
+}
+
+// Form on Widget
+// -------------------------
+.widget {
+  input {
+    margin: 0;
+    height: 37px;
+    @include box-sizing(border-box);
+  }
+  .input-button {
+    width: 36%;
+  }
+  .input-text {
+    width: 60%;
+    border: none;
+    margin-right: 1%;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: #e5e5e5;
+  }
+  .input-text,
+  .input-text:focus {
+    @include box-shadow(#{0 1px white, 0 1px #cccccc inset, 0 1px 3px 1px rgba(0, 0, 0, 0.09) inset});
+  }
+}
+
+
+/*==================================================================== 
+  Primary Sidebar Widgets
+=================================================================== */
+.primary-sidebar {  
+  .widget {
+    padding-left: 20px;    
+    padding-bottom: 20px;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    @media (min-width: 1200px) {
+      padding-left: 30px;
+      padding-bottom: 30px;
+    }
+  }
+}
+.primary-sidebar .widget-title {
+  margin-left: -20px;
+  @media (min-width: 1200px) { margin-left: -30px; }
+}
+
+// Extend
+// -----
+.primary-sidebar .widget-title,
+.content-sidebar .widget-title {
+  @extend .section-title;
+}
+
+
+/*==================================================================== 
+  Mini Sidebar
+=================================================================== */
+.mini-sidebar {
+  ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+  ul {
+    margin-left: 0;
+    list-style: square;
+    list-style-position: inside;
+  }
+
+  li {
+    padding: 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: $sansFontFamily;
+    border-top: 1px solid #eee;
+  }
+  li:first-child {
+    border-top: none;
+  }
+  a {
+    display: block;
+    margin-left: 3px;
+    color: $textColor;
+    text-decoration: none;
+    &:after {
+      display: none;
+      content: "\2192";
+      margin-left: 5px;
+    }
+  }
+  a:hover {
+    color: $linkColor;
+  }
+  a:hover:after {
+    display: inline;
+  }
+}
+
+/*==================================================================== 
+  Content Sidebar Widgets
+=================================================================== */
+.content-sidebar {
+  .widget {
+    margin-bottom: 30px;
+  }
+  .widget:nth-child(2n+3) {
+   
+  }
+}
+
+// Extend
+// ------
+.content-sidebar .widget {
+  @extend [class*="span"];
+  @extend .span4;
+}
+
+
+/*==================================================================== 
+  Footer Widgets
+=================================================================== */
+.footer-widgets {
+  padding-top: $baseLineHeight * 2;
+
+  // Widget Title
+  // ------------
+  .widget-title {
+    border: none;
+    padding-bottom: $baseLineHeight;
+  }
+  .widget-title:before {
+    bottom: 0;
+    width: 32px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background: #707070;
+  }
+}
+
+/* Footer Widgets inner content
+------------------------------------------------------------------- */
+.footer-widgets {
+  // Entry Header
+  // ------------
+  .entry-header h2,
+  .entry-header a {
+    color: #fff;
+  }
+
+  // Entry Images
+  // ------------
+  .entry-top img {
+    border-bottom-color: #1A1A1A;
+  }
+  .entry-date {
+    color: #bbb;
+  }
+
+  // Entry Category
+  // --------------
+  .entry-category {
+    font-weight: bold;
+  }
+}
+
+// Extend
+// ------
+.footer-widgets .widget {
+  @extend [class*="span"];
+  @extend .span4;
+}
+
+
+/* ---------------------------------------------------------------- */
+
+/*==================================================================== 
+  Widget Facebook
+=================================================================== */
+.wrapper-facebook iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100% !important;
+}
+
+
+/*==================================================================== 
+  Widget Ads
+=================================================================== */
+.wrapper-ads-content,
+.wrapper-facebook {
+  background: #F7F7F7;
+  border-bottom: 10px solid $borderColor;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.wrapper-facebook {
+  padding: 20px;
+}
+
+// Widget Ads on Primary Sidebar
+// -----------------------------
+.primary-sidebar .widget_ads_300 {
+  border-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-left-width: 0;
+
+  .widget-title {
+    margin-left: 0;
+  }
+}
+
+// Widget Ads on Footer Sidebar
+// ----------------------------
+.footer-widgets .widget_ads_300 {
+  .wrapper-ads-content {
+    background: none;
+    border: none;
+  }
+}
+
+// On Wide Screen
+// -------------------------
+@media (min-width: 1200px) {
+  .primary-sidebar .widget_ads_300 {
+    padding-left: 30px;
+    border-left-width: 1px;
+
+    .widget-title {
+      margin-left: -30px;
+    }
+  }
+
+  .wrapper-ads-content {
+    padding: 20px 19px;
+  }
+}
+
+
+/*==================================================================== 
+  Widget Flickr
+=================================================================== */
+.widget_photos {
+  ul {
+    @include clearfix;
+  }
+  li {
+    float: left;
+    margin: 5px 4px;
+  }
+}
+
+
+/*==================================================================== 
+  Widget Post List
+=================================================================== */
+.widget_post_list,
+.widget_tabs {
+  .entry-content {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+  .entry-content:before {
+    display: none;
+  }
+}
+.primary-sidebar .widget_post_list {
+  padding-bottom: 0;
+}
+
+// List Post Type
+// --------------
+.list-post-type {
+  margin: 0 0 10px 0;
+  list-style: none;
+
+  li {
+    overflow: hidden;
+    padding: $baseLineHeight 0;
+    border-top: 4px double #e5e5e5;
+  }
+
+  .entry-top {
+    float: left;
+    width: 70px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border-bottom: none;
+
+    @media (min-width: 1200px) { margin-right: 30px; }
+  }
+
+  .entry-top a {
+    border: none;
+  }
+
+  .entry-container {
+    overflow: hidden;
+  }
+
+  .entry-category {
+    margin-bottom: 0;
+  }
+  .entry-header {
+    margin-bottom: 5px;
+  }
+
+  .entry-header h2 {
+    font-size: 17px;
+  }
+
+  .entry-date:before {
+    display: none;
+  }
+}
+
+
+/*==================================================================== 
+  Widget Post List - Full Width
+=================================================================== */
+.widget_post_list.full-width {
+  clear: both;
+  border-bottom: 1px solid #e5e5e5;
+  @include clearfix;
+
+  // Large Post Type
+  // ---------------
+  .large-post-type {
+    float: left;    
+  }
+  .large-post-type .entry-container {
+    padding-right: 20px;
+    border-right: 1px solid #e5e5e5;
+  }
+  @media (min-width: 1200px) {
+    .large-post-type .entry-container {
+      padding-right: 30px;
+    }
+  }
+
+  // List Post Type
+  // --------------
+  .list-post-type li:first-child {
+    border-top: none;
+  }
+}
+
+/*==================================================================== 
+  Widget Post List - Half Width
+=================================================================== */
+
+// Extend
+// ------
+.content-sidebar .widget_post_list.full-width {
+  width: auto;
+}
+.content-sidebar .widget_post_list.full-width .large-post-type {
+  @extend .span4;
+}
+.widget_post_list.half-width {
+  @extend .span4;
+}
+.widget_post_list.full-width .list-post-type {
+  @extend [class*="span"];
+  @extend .span4;
+}
+
+
+/*==================================================================== 
+  Widget on Footer
+=================================================================== */
+.footer-widgets .list-post-type {
+  li {
+    border: none;
+    padding-top: 0;
+  }
+}
+.footer-widgets .large-post-type,
+.footer-widgets .list-post-type li {
+  position: relative;
+  padding-left: 30px;
+
+  &:before {
+    left: 0;
+    top: 4px;
+    font-size: 18px;
+    position: absolute;
+    text-indent: 0 !important;
+  }
+}
+
+// Extend
+// ------
+.footer-widgets .list-post-type li,
+.footer-widgets .large-post-type {
+  &:before {
+    @extend [class^="icon-"]:before;
+    @extend .icon-copy:before;
+  }
+}
+
+
+/*==================================================================== 
+  Widget Twitter
+=================================================================== */
+.nesia-tweet-list {
+  margin: 0;
+  list-style: none;
+
+  li {
+    overflow: hidden;
+    margin-top: 30px;
+    position: relative;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .jta-tweet-text {
+    padding: 20px;
+    display: block;
+    background: lighten($baseColor, 66%);
+    position: relative;
+    margin-bottom: $baseLineHeight * 0.5;
+
+    &:before {
+      content: "";
+      right: 20px;
+      bottom: -20px;
+      position: absolute;
+      border: 10px solid lighten($baseColor, 66%);
+      border-color: lighten($baseColor, 66%) transparent transparent lighten($baseColor, 66%);
+    }
+  }
+
+  .jta-tweet-profile-image {
+    float: left;
+    margin-top: 5px;
+    margin-right: $baseLineHeight * 0.5;
+    img {
+      width: 40px;
+    }
+  }
+
+  .tweet-user-screenname a {
+    font-size: 16px;
+    color: $textColor;
+    font-weight: bold;
+    &:hover {
+      color: $linkColor;
+    }
+  }
+
+  .jta-tweet-timestamp a {
+    color: #adadad;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: $sansFontFamily;
+  }
+  .jta-tweet-timestamp a:before {
+    content: "\2014";
+    margin-right: 5px;
+  }
+
+}
+.tweet-link-button {
+  margin-top: 30px;
+  text-align: center;
+  padding: 5px 10px;
+  background: #f7f7f7;
+
+  .footer-widgets & {
+    background: #000;
+  }
+}
+
+
+/*==================================================================== 
+  Widget Twitter on Footer
+=================================================================== */
+.footer-widgets {
+  .jta-tweet-profile-image,
+  .tweet-user-screenname,
+  .jta-tweet-text:before,
+  .jta-tweet-timestamp a:before {
+    display: none;
+  }
+
+  .jta-tweet-timestamp a {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .nesia-tweet-list .jta-tweet-text {
+    padding: 0;
+    background: none;
+    margin-bottom: 5px;
+  }
+
+  .nesia-tweet-list-item {
+    padding-left: 30px;
+  }
+  .nesia-tweet-list-item:before {
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    text-indent: 0 !important;
+  }
+}
+
+// Extend
+// ------
+.footer-widgets .nesia-tweet-list-item:before {
+  @extend [class^="icon-"]:before;
+  @extend .icon-twitter:before
+}
+
+
+/*==================================================================== 
+  Widget Subscribe
+=================================================================== */
+.widget_subscribe {
+  form {
+    padding-top: $baseLineHeight * 0.5;
+    padding-bottom: $baseLineHeight;
+    margin-bottom: $baseLineHeight;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+/* Social Links Icon
+------------------------------------------------------------------- */
+.social-links {
+  margin: 0;
+  overflow: hidden;
+  list-style: none;
+
+  a {
+    display: block;
+    color: $textColor;
+    padding-right: 5px;
+  }
+  li {
+    float: left;
+    width: 49.8%;
+  }
+  i {
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+
+
+/*==================================================================== 
+  Widget Tabs
+=================================================================== */
+.widget_tabs {
+  padding-top: 5px;
+  border-top: 1px solid #e5e5e5;
+
+  // Tabs Nav
+  // -----------------------
+  .tab-nav {
+    margin-left: -20px;
+    background: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+
+    @media (min-width: 1200px) { margin-left: -30px; }
+  }
+  .tab-nav a {
+    color: $textColor;
+    border: none;
+    margin: 0;
+    position: relative;
+    border-right: 1px solid #e5e5e5;
+    @include border-radius(0);
+  }
+  .tab-nav > li {
+    margin: 0;
+  }
+  .tab-nav > .active > a,
+  .tab-nav > .active > a:hover,
+  .tab-nav > li > a:hover {
+    border: none;
+    background: #ebebeb;
+    border-right: 1px solid #e5e5e5;
+  }
+  .tab-nav a:hover:before,
+  .tab-nav .active a:before {
+    position: absolute;
+    content: "";
+    top: -7px;
+    height: 6px;
+    left: -1px;
+    right: -1px;
+    background: $linkColor;
+  }
+  .tab-nav .active a:after {
+    content: "";
+    position: absolute;
+    border: 8px solid transparent;
+    border-top-color: #ebebeb;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -8px;
+  }
+
+  // Tabs Title
+  // -----------------------
+  .tabs-title h5 {
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-family: $sansFontFamily;
+  }
+}
+
+/* Widget Tabs On Footer
+------------------------------------------------------------------- */
+.footer-widgets .widget_tabs {
+  padding-top: 0;
+  border: none;
+
+  .tab-nav {
+    margin-left: 0;
+  }
+}
+
+
+/*==================================================================== 
+  WordPress Default Widget
+=================================================================== */
+
+/* Widget Calendar
+------------------------------------------------------------------- */
+#wp-calendar {
+  width: 100%;
+  text-align: center;
+
+  caption {
+    margin-bottom: $baseLineHeight / 2;
+  }
+
+  tfoot td {
+    padding-top: $baseLineHeight / 2;
+    padding-bottom: 0;
+  }
+  tfoot a {
+    width: auto;
+    float: none;
+    display: block;
+    padding: 7px 5px;
+  }
+}
+
+/* Widget Rss
+------------------------------------------------------------------- */
+.widget_rss {
+  .widget-title a {
+    color: #fff;
+  }
+  img {
+    display: none;
+  }
+  .rss-date {
+    display: block;
+    margin-bottom: $baseLineHeight / 2;
+  }
+  .widget-inner-container li {
+    margin-bottom: $baseLineHeight;
+  }
+  cite {
+    font-style: italic;
+  }
+}
+
+
+/* Widget Tags Cloud
+------------------------------------------------------------------- */
+.widget_categories li,
+.widget_tag_cloud a {
+  @include transition(background 0.3s ease)
+}
+.widget_tag_cloud a {
+  color: #fff;
+  font-size: 11px !important;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 0 10px 2px;
+  margin: 0 2px 8px 0;
+  background: lighten($baseColor, 46.5%);
+  text-decoration: none;
+  font-family: $sansFontFamily;
+
+  &:hover {
+    color: #fff;
+    background: lighten($baseColor, 23%);
+  }
+
+  &, &:before {
+    display: inline-block;
+    @include ie7-inline-block;
+    @include border-radius(30px)
+  }
+
+  &:before {
+    width: 6px;
+    height: 6px;
+    content: "";
+    background: #fff;
+    margin-right: 6px;
+  }
+}
+
+
+/* Widget Categories, links
+------------------------------------------------------------------- */
+.widget_categories {
+  ul {
+    margin: 0 0 0 -6%;
+    list-style: none;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    width: 33.8%;
+    font-size: 13px;
+    margin-left: 6%;
+    cursor: pointer;
+    padding: 10px 5%;
+    color: $textColor;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+    @include text-overflow;
+    background: lighten($baseColor, 66%);
+  }
+  li:hover {
+    color: #fff;
+    background: lighten($baseColor, 41%);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+
+// There are some style extending fom this style. Partially include some
+// Font Awesome fonts. Not include all font awesome here due file 
+// size issue on IE
+[class^="icon-"]:before {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+}
+.icon-user:before                 { content: "\f007"; }
+.icon-copy:before                 { content: "\f0c5"; }
+.icon-tags:before                 { content: "\f02c"; }
+.icon-undo:before                 { content: "\f0e2"; }
+.icon-twitter:before              { content: "\f099"; }
+.icon-calendar:before             { content: "\f073"; }

@@ -1,0 +1,181 @@
+/* WebSymbols Font Icon
+ * JustBeNiceStudio http://www.justbenicestudio.com/
+ * http://www.justbenicestudio.com/studio/websymbols/
+ * ------------------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'WebSymbols';
+    src: url('../fonts/websymbols/websymbols-regular-webfont.eot');
+    src: url('../fonts/websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/websymbols/websymbols-regular-webfont.woff') format('woff'),
+         url('../fonts/websymbols/websymbols-regular-webfont.ttf') format('truetype'),
+         url('../fonts/websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// ICONS
+// Glyphs and icons for buttons, nav, and more
+// -------------------------------------------
+
+// _sprites.scss reset
+[class^="ws-icon-"],
+[class*=" ws-icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+li[class^="ws-icon-"],
+li[class*=" ws-icon-"] {
+    display: block;
+}
+
+[class^="ws-icon-"]:before,
+[class*=" ws-icon-"]:before {
+    font-family: "WebSymbols";
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+}
+
+// makes the font 33% larger relative to the icon container
+.ws-icon-large:before {
+    vertical-align: top;
+    font-size: (4 / 3) * 1em;
+}
+
+.btn {
+    [class^="ws-icon-"],
+    [class*=" ws-icon-"] {
+    line-height: .9em; // keeps button heights with and without icons the same
+    }
+}
+
+li {
+    [class^="ws-icon-"],
+    [class*=" ws-icon-"] {
+        display: inline-block;
+        width: 1.25em;
+        text-align: center;
+    }
+    .ws-icon-large[class^="ws-icon-"],
+    .ws-icon-large[class*=" ws-icon-"]  {
+        width: 1.5*1.25em; // 1.5 increased font size for icon-large * 1.25 width
+    }
+}
+
+li[class^="ws-icon-"],
+li[class*=" ws-icon-"] {
+    margin-left: 0;
+    list-style-type: none;
+
+    &:before {
+        text-indent: -2em;
+        text-align: center;
+    }
+    &.icon-large:before {
+        text-indent: -4/3em;
+    }
+}
+
+
+// Set font icon character into pseudo element
+
+// Icons for content management systems
+.ws-icon-image:before              { content: "\0049"; }
+.ws-icon-settings:before           { content: "\0053"; }
+.ws-icon-cloud:before              { content: "\0043"; }
+.ws-icon-folder:before             { content: "\0046"; }
+.ws-icon-archive:before            { content: "\005A"; }
+.ws-icon-movie:before              { content: "\004D"; }
+.ws-icon-html:before               { content: "\0048"; }
+.ws-icon-text:before               { content: "\0054"; }
+.ws-icon-terminal:before           { content: "\005F"; }
+.ws-icon-attachment:before         { content: "\0041"; }
+.ws-icon-logout:before             { content: "\0058"; }
+.ws-icon-indent:before             { content: "\006E"; }
+.ws-icon-outdent:before            { content: "\006F"; }
+.ws-icon-list:before               { content: "\0050"; }
+.ws-icon-numberlist:before         { content: "\0031"; }
+.ws-icon-move:before               { content: "\007E"; }
+.ws-icon-user:before               { content: "\0055"; }
+.ws-icon-opened-lock:before        { content: "\0077"; }
+.ws-icon-closed-lock:before        { content: "\0078"; }
+.ws-icon-portrait:before           { content: "\0061"; }
+.ws-icon-album:before              { content: "\0062"; }
+.ws-icon-center:before             { content: "\0060"; }
+
+// Gallery navigations icons
+.ws-icon-zoom-in:before            { content: "\002B"; }
+.ws-icon-zoom-out:before           { content: "\002D"; }
+.ws-icon-arrow-up:before           { content: "\003A"; }
+.ws-icon-arrow-down:before         { content: "\003B"; }
+.ws-icon-close:before              { content: "\00D7"; }
+.ws-icon-scale:before              { content: "\0026"; }
+.ws-icon-arrow-left:before         { content: "\0028"; }
+.ws-icon-arrow-right:before        { content: "\0029"; }
+.ws-icon-back:before               { content: "\003C"; }
+.ws-icon-forward:before            { content: "\003E"; }
+.ws-icon-rotate:before             { content: "\002A"; }
+.ws-icon-clean-close:before        { content: "\0027"; }
+
+// Social networks
+.ws-icon-twitter:before            { content: "\0074"; }
+.ws-icon-facebook:before           { content: "\0066"; }
+.ws-icon-vkontakte:before          { content: "\0076"; }
+.ws-icon-linkedin:before           { content: "\006C"; }
+.ws-icon-google-plus:before        { content: "\0067"; }
+.ws-icon-skype:before              { content: "\0073"; }
+.ws-icon-rss:before                { content: "\0072"; }
+.ws-icon-vimeo:before              { content: "\006D"; }
+.ws-icon-youtube:before            { content: "\0079"; }
+.ws-icon-tumblr:before             { content: "\006B"; }
+.ws-icon-lettery:before            { content: "\007A"; }
+.ws-icon-odnoklassniki:before      { content: "\0051"; }
+.ws-icon-clear-rss:before          { content: "\0042"; }
+
+// Icon for service sites
+.ws-icon-favorite:before           { content: "\0052"; }
+.ws-icon-tag:before                { content: "\002C"; }
+.ws-icon-comment:before            { content: "\0063"; }
+.ws-icon-chat:before               { content: "\0064"; }
+.ws-icon-opened-chat:before        { content: "\0065"; }
+.ws-icon-rating:before             { content: "\0075"; }
+.ws-icon-map-pin:before            { content: "\003F"; }
+.ws-icon-like:before               { content: "\004E"; }
+.ws-icon-unlike:before             { content: "\004F"; }
+.ws-icon-search:before             { content: "\004C"; }
+.ws-icon-reblog:before             { content: "\004A"; }
+.ws-icon-new-window:before         { content: "\0044"; }
+.ws-icon-clock:before              { content: "\0050"; }
+.ws-icon-link:before               { content: "\004B"; }
+
+// Other
+.ws-icon-mail:before               { content: "\0040"; }
+.ws-icon-sort-down:before          { content: "\007B"; }
+.ws-icon-sort-up:before            { content: "\007D"; }
+.ws-icon-unfold:before             { content: "\005B"; }
+.ws-icon-fold:before               { content: "\005D"; }
+.ws-icon-grid-icon:before          { content: "\00B9"; }
+.ws-icon-list:before               { content: "\00B2"; }
+.ws-icon-list-icon:before          { content: "\00B3"; }
+.ws-icon-reply:before              { content: "\0068"; }
+.ws-icon-reply-all:before          { content: "\0069"; }
+.ws-icon-arrow-forward:before      { content: "\006A"; }
+.ws-icon-fullscreen:before         { content: "\0025"; }
+.ws-icon-checkmark:before          { content: "\002E"; }
+.ws-icon-approved:before           { content: "\002F"; }
+.ws-icon-alert:before              { content: "\0057"; }
+.ws-icon-sync:before               { content: "\0056"; }
+// .ws-icon-loading-1:before          { content: "\0031"; }
+// .ws-icon-loading-2:before          { content: "\0032"; }
+// .ws-icon-loading-3:before          { content: "\0033"; }
+// .ws-icon-loading-4:before          { content: "\0034"; }
+// .ws-icon-loading-5:before          { content: "\0035"; }
+// .ws-icon-loading-6:before          { content: "\0036"; }
+// .ws-icon-loading-7:before          { content: "\0037"; }

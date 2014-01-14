@@ -1,0 +1,130 @@
+/* Custom Grid
+ * 
+ * ------------------------------------------------------------------------------------------- */
+
+$griddyColumns:         24;
+$griddyColumnWidth:     20px;
+$griddyGutterWidth:     10px;
+
+// Function to calculate grid width
+@function griddy-width( $columns, $width: $griddyColumnWidth , $gutter: $griddyGutterWidth ) {
+  @return ($width * $columns) + ( ($gutter * 2) * ($columns - 1) );
+}
+
+// Calculate column width
+@mixin griddy-col( $columns, $griddyColumnWidth, $griddyGutterWidth ) {
+  width: griddy-width( $columns, $griddyColumnWidth, $griddyGutterWidth );
+}
+
+// Calculate grid offset
+@mixin griddy-offset( $columns, $griddyColumnWidth, $griddyGutterWidth ) {
+  margin-left: ($griddyColumnWidth * $columns) + ( ($griddyGutterWidth * 2) * ($columns + 1) ) - $griddyGutterWidth;
+}
+
+// Generate grid
+@mixin griddy-core( $griddyColumnWidth, $griddyGutterWidth ) {
+  // Container Width
+  $containerWidth: (( $griddyColumnWidth + ($griddyGutterWidth * 2) ) * $griddyColumns) - ($griddyGutterWidth * 2);
+
+  .grid-row {
+    @include clearfix;
+    margin-left: -$griddyGutterWidth;
+    margin-right: -$griddyGutterWidth;
+    &.grid-boxed {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  [class*="col"] {
+    float: left;
+    margin-left: $griddyGutterWidth;
+    margin-right: $griddyGutterWidth;
+  }
+
+  // Calculate container width
+  .grid-container {
+    width: $containerWidth ;
+  }
+
+
+  // Generate colX
+  $i: $griddyColumns;
+  @while $i > 0 {
+    .col#{$i} { @include griddy-col($i, $griddyColumnWidth, $griddyGutterWidth); }
+    $i: $i - 1;
+  }
+
+  // Generate grid-offsetX
+  $i: $griddyColumns;
+  @while $i > 0 {
+    .grid-offset#{$i} { @include griddy-offset($i, $griddyColumnWidth, $griddyGutterWidth); }
+    $i: $i - 1;
+  }
+
+  // Generate grid one fourth
+  .col-onefourth {
+    margin-left: 0;
+    margin-right: 0;
+    width: $containerWidth / 4;
+  }
+
+  // Generate grid one fifth
+  .col-onefifth {
+    margin-left: 0;
+    margin-right: 0;
+    width: $containerWidth / 5;
+  }
+
+}
+
+.grid-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+// Normal Desktop
+// --------------
+@include griddy-core( $griddyColumnWidth, $griddyGutterWidth );
+
+// Wide Monitor
+// ------------
+@media only screen and (min-width:1200px) {
+  @include griddy-core( 30px, 10px );
+}
+
+// Portrait Tablet to Default Desktop
+// ----------------------------------
+@media (min-width: 768px) and (max-width: 979px) {
+  @include griddy-core( 16px, 6px );
+}
+
+// LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
+// --------------------------------------------------
+@media (max-width: 767px) {
+
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .grid-container {
+    width: auto;
+  }
+
+  .grid-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  [class*="col"] {
+    margin: 0;
+    float: none;
+    width: auto;
+    display: block;
+  }
+
+}

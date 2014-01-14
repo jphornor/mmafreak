@@ -1,0 +1,417 @@
+/* WebSymbols Font Icon
+ * By Daniel Bruce 
+ * http://entypo.com/
+ * ------------------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Entypo';
+    src: url('../fonts/entypo/Entypo-webfont.eot');
+    src: url('../fonts/entypo/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/entypo/Entypo-webfont.woff') format('woff'),
+         url('../fonts/entypo/Entypo-webfont.ttf') format('truetype'),
+         url('../fonts/entypo/Entypo-webfont.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// ICONS
+// Glyphs and icons for buttons, nav, and more
+// -------------------------------------------
+
+// _sprites.scss reset
+[class^="entypo-icon-"],
+[class*=" entypo-icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+li[class^="entypo-icon-"],
+li[class*=" entypo-icon-"] {
+    display: block;
+}
+
+[class^="entypo-icon-"]:before,
+[class*=" entypo-icon-"]:before {
+    font-family: "Entypo";
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+}
+
+// makes the font 33% larger relative to the icon container
+.entypo-icon-large:before {
+    vertical-align: top;
+    font-size: (4 / 3) * 1em;
+}
+
+.btn {
+    [class^="entypo-icon-"],
+    [class*=" entypo-icon-"] {
+    line-height: .9em; // keeps button heights with and without icons the same
+    }
+}
+
+li {
+    [class^="entypo-icon-"],
+    [class*=" entypo-icon-"] {
+        display: inline-block;
+        width: 1.25em;
+        text-align: center;
+    }
+    .entypo-icon-large[class^="entypo-icon-"],
+    .entypo-icon-large[class*=" entypo-icon-"]  {
+        width: 1.5*1.25em; // 1.5 increased font size for icon-large * 1.25 width
+    }
+}
+
+li[class^="entypo-icon-"],
+li[class*=" entypo-icon-"] {
+    margin-left: 0;
+    list-style-type: none;
+
+    &:before {
+        text-indent: -2em;
+        text-align: center;
+    }
+    &.icon-large:before {
+        text-indent: -4/3em;
+    }
+}
+
+
+// Set font icon character into pseudo element
+
+.entypo-icon-plus:before { content: "+"; } // '\2b'
+.entypo-icon-minus:before { content: "-"; } // '\2d' 
+.entypo-icon-info:before { content: "ℹ"; } // '\2139' 
+.entypo-icon-left:before { content: "←"; } // '\2190' 
+.entypo-icon-up:before { content: "↑"; } // '\2191' 
+.entypo-icon-right:before { content: "→"; } // '\2192' 
+.entypo-icon-down:before { content: "↓"; } // '\2193' 
+.entypo-icon-level-down:before { content: "↳"; } // '\21b3' 
+.entypo-icon-home:before { content: "⌂"; } // '\2302' 
+.entypo-icon-keyboard:before { content: "⌨"; } // '\2328' 
+.entypo-icon-pause:before { content: "⎉"; } // '\2389' 
+.entypo-icon-fast-fw:before { content: "⏩"; } // '\23e9' 
+.entypo-icon-fast-bw:before { content: "⏪"; } // '\23ea' 
+.entypo-icon-to-end:before { content: "⏭"; } // '\23ed' 
+.entypo-icon-to-start:before { content: "⏮"; } // '\23ee' 
+.entypo-icon-hourglass:before { content: "⏳"; } // '\23f3' 
+.entypo-icon-stop:before { content: "▪"; } // '\25aa' 
+.entypo-icon-up-dir:before { content: "▴"; } // '\25b4' 
+.entypo-icon-play:before { content: "▶"; } // '\25b6' 
+.entypo-icon-right-dir:before { content: "▸"; } // '\25b8' 
+.entypo-icon-down-dir:before { content: "▾"; } // '\25be' 
+.entypo-icon-left-dir:before { content: "◂"; } // '\25c2' 
+.entypo-icon-cloud:before { content: "☁"; } // '\2601' 
+.entypo-icon-star:before { content: "★"; } // '\2605' 
+.entypo-icon-star-empty:before { content: "☆"; } // '\2606' 
+.entypo-icon-th-list:before { content: "☰"; } // '\2630' 
+.entypo-icon-moon:before { content: "☽"; } // '\263d' 
+.entypo-icon-heart-empty:before { content: "♡"; } // '\2661' 
+.entypo-icon-heart:before { content: "♥"; } // '\2665' 
+.entypo-icon-music:before { content: "♪"; } // '\266a' 
+.entypo-icon-th:before { content: "⚏"; } // '\268f' 
+.entypo-icon-flag:before { content: "⚑"; } // '\2691' 
+.entypo-icon-cog:before { content: "⚙"; } // '\2699' 
+.entypo-icon-attention:before { content: "⚠"; } // '\26a0' 
+.entypo-icon-flash:before { content: "⚡"; } // '\26a1' 
+.entypo-icon-record:before { content: "⚫"; } // '\26ab' 
+.entypo-icon-flight:before { content: "✈"; } // '\2708' 
+.entypo-icon-mail:before { content: ""; } // '\e800' 
+.entypo-icon-pencil:before { content: "✎"; } // '\270e' 
+.entypo-icon-feather:before { content: "✒"; } // '\2712' 
+.entypo-icon-ok:before { content: "✓"; } // '\2713' 
+.entypo-icon-cancel:before { content: "✕"; } // '\2715' 
+.entypo-icon-cancel-circle:before { content: "✖"; } // '\2716' 
+.entypo-icon-help:before { content: "❓"; } // '\2753' 
+.entypo-icon-quote-right:before { content: "❞"; } // '\275e' 
+.entypo-icon-plus-circle:before { content: "➕"; } // '\2795' 
+.entypo-icon-minus-circle:before { content: "➖"; } // '\2796' 
+.entypo-icon-right-thin:before { content: "➡"; } // '\27a1' 
+.entypo-icon-direction:before { content: "➢"; } // '\27a2' 
+.entypo-icon-forward:before { content: "➦"; } // '\27a6' 
+.entypo-icon-ccw:before { content: "⟲"; } // '\27f2' 
+.entypo-icon-cw:before { content: "⟳"; } // '\27f3' 
+.entypo-icon-left-thin:before { content: "⬅"; } // '\2b05' 
+.entypo-icon-up-thin:before { content: "⬆"; } // '\2b06' 
+.entypo-icon-down-thin:before { content: "⬇"; } // '\2b07' 
+.entypo-icon-list-add:before { content: ""; } // '\e003' 
+.entypo-icon-left-bold:before { content: ""; } // '\e4ad' 
+.entypo-icon-right-bold:before { content: ""; } // '\e4ae' 
+.entypo-icon-up-bold:before { content: ""; } // '\e4af' 
+.entypo-icon-down-bold:before { content: ""; } // '\e4b0' 
+.entypo-icon-user-add:before { content: ""; } // '\e700' 
+.entypo-icon-help-circle:before { content: ""; } // '\e704' 
+.entypo-icon-info-circle:before { content: ""; } // '\e705' 
+.entypo-icon-back:before { content: ""; } // '\e706' 
+.entypo-icon-back-alt:before { content: ""; } // '\e707' 
+.entypo-icon-eye:before { content: ""; } // '\e70a' 
+.entypo-icon-tag:before { content: ""; } // '\e70c' 
+.entypo-icon-upload-cloud:before { content: ""; } // '\e711' 
+.entypo-icon-reply:before { content: ""; } // '\e712' 
+.entypo-icon-reply-all:before { content: ""; } // '\e713' 
+.entypo-icon-code:before { content: ""; } // '\e714' 
+.entypo-icon-export:before { content: ""; } // '\e715' 
+.entypo-icon-print:before { content: ""; } // '\e716' 
+.entypo-icon-retweet:before { content: ""; } // '\e717' 
+.entypo-icon-comment:before { content: ""; } // '\e718' 
+.entypo-icon-chat:before { content: ""; } // '\e720' 
+.entypo-icon-vcard:before { content: ""; } // '\e722' 
+.entypo-icon-address:before { content: ""; } // '\e723' 
+.entypo-icon-location:before { content: ""; } // '\e724' 
+.entypo-icon-map:before { content: ""; } // '\e727' 
+.entypo-icon-compass:before { content: ""; } // '\e728' 
+.entypo-icon-trash:before { content: ""; } // '\e729' 
+.entypo-icon-doc:before { content: ""; } // '\e730' 
+.entypo-icon-docs:before { content: ""; } // '\e736' 
+.entypo-icon-docs-landscape:before { content: ""; } // '\e737' 
+.entypo-icon-archive:before { content: ""; } // '\e738' 
+.entypo-icon-rss:before { content: ""; } // '\e73a' 
+.entypo-icon-share:before { content: ""; } // '\e73c' 
+.entypo-icon-basket:before { content: ""; } // '\e73d' 
+.entypo-icon-volume:before { content: ""; } // '\e742' 
+.entypo-icon-resize-full:before { content: ""; } // '\e744' 
+.entypo-icon-resize-small:before { content: ""; } // '\e746' 
+.entypo-icon-popup:before { content: ""; } // '\e74c' 
+.entypo-icon-publish:before { content: ""; } // '\e74d' 
+.entypo-icon-window:before { content: ""; } // '\e74e' 
+.entypo-icon-arrow-combo:before { content: ""; } // '\e74f' 
+.entypo-icon-down-circle2:before { content: ""; } // '\e758' 
+.entypo-icon-left-circle2:before { content: ""; } // '\e759' 
+.entypo-icon-right-circle2:before { content: ""; } // '\e75a' 
+.entypo-icon-up-circle2:before { content: ""; } // '\e75b' 
+.entypo-icon-down-open:before { content: ""; } // '\e75c' 
+.entypo-icon-left-open:before { content: ""; } // '\e75d' 
+.entypo-icon-right-open:before { content: ""; } // '\e75e' 
+.entypo-icon-up-open:before { content: ""; } // '\e75f' 
+.entypo-icon-progress-0:before { content: ""; } // '\e768' 
+.entypo-icon-progress-1:before { content: ""; } // '\e769' 
+.entypo-icon-progress-2:before { content: ""; } // '\e76a' 
+.entypo-icon-progress-3:before { content: ""; } // '\e76b' 
+.entypo-icon-signal:before { content: ""; } // '\e770' 
+.entypo-icon-back-in-time:before { content: ""; } // '\e771' 
+.entypo-icon-net:before { content: ""; } // '\e776' 
+.entypo-icon-inbox:before { content: ""; } // '\e777' 
+.entypo-icon-install:before { content: ""; } // '\e778' 
+.entypo-icon-lifebuoy:before { content: ""; } // '\e788' 
+.entypo-icon-mouse:before { content: ""; } // '\e789' 
+.entypo-icon-bag:before { content: ""; } // '\e78a' 
+.entypo-icon-dot:before { content: ""; } // '\e78b' 
+.entypo-icon-dot-2:before { content: ""; } // '\e78c' 
+.entypo-icon-dot-3:before { content: ""; } // '\e78d' 
+.entypo-icon-cc:before { content: ""; } // '\e7a5' 
+.entypo-icon-google-circles:before { content: ""; } // '\f310' 
+.entypo-icon-logo-entypo:before { content: ""; } // '\f600' 
+.entypo-icon-flag-sw:before { content: ""; } // '\f601' 
+.entypo-icon-logo-db:before { content: ""; } // '\f603' 
+.entypo-icon-globe:before { content: "𝌍"; } // '\1d30d' 
+.entypo-icon-picture:before { content: "🌄"; } // '\1f304' 
+.entypo-icon-leaf:before { content: "🍂"; } // '\1f342' 
+.entypo-icon-mic:before { content: "🎤"; } // '\1f3a4' 
+.entypo-icon-palette:before { content: "🎨"; } // '\1f3a8' 
+.entypo-icon-video:before { content: "🎬"; } // '\1f3ac' 
+.entypo-icon-target:before { content: "🎯"; } // '\1f3af' 
+.entypo-icon-music-alt:before { content: "🎵"; } // '\1f3b5' 
+.entypo-icon-top-list:before { content: "🏆"; } // '\1f3c6' 
+.entypo-icon-thumbs-up:before { content: "👍"; } // '\1f44d' 
+.entypo-icon-user:before { content: "👤"; } // '\1f464' 
+.entypo-icon-users:before { content: "👥"; } // '\1f465' 
+.entypo-icon-lamp:before { content: "💡"; } // '\1f4a1' 
+.entypo-icon-monitor:before { content: "💻"; } // '\1f4bb' 
+.entypo-icon-cd:before { content: "💿"; } // '\1f4bf' 
+.entypo-icon-folder:before { content: "📁"; } // '\1f4c1' 
+.entypo-icon-doc-text:before { content: "📄"; } // '\1f4c4' 
+.entypo-icon-calendar:before { content: "📅"; } // '\1f4c5' 
+.entypo-icon-attach:before { content: "📎"; } // '\1f4ce' 
+.entypo-icon-book-open:before { content: "📖"; } // '\1f4d6' 
+.entypo-icon-phone:before { content: "📞"; } // '\1f4de' 
+.entypo-icon-upload:before { content: "📤"; } // '\1f4e4' 
+.entypo-icon-download:before { content: "📥"; } // '\1f4e5' 
+.entypo-icon-mobile:before { content: "📱"; } // '\1f4f1' 
+.entypo-icon-camera:before { content: "📷"; } // '\1f4f7' 
+.entypo-icon-shuffle:before { content: "🔀"; } // '\1f500' 
+.entypo-icon-light-down:before { content: "🔅"; } // '\1f505' 
+.entypo-icon-light-up:before { content: "🔆"; } // '\1f506' 
+.entypo-icon-volume-off:before { content: "🔇"; } // '\1f507' 
+.entypo-icon-volume-up:before { content: "🔊"; } // '\1f50a' 
+.entypo-icon-battery:before { content: "🔋"; } // '\1f50b' 
+.entypo-icon-search:before { content: "🔍"; } // '\1f50d' 
+.entypo-icon-search-alt:before { content: "a"; } // '\61' 
+.entypo-icon-lock:before { content: "🔒"; } // '\1f512' 
+.entypo-icon-lock-open:before { content: "🔓"; } // '\1f513' 
+.entypo-icon-bell:before { content: "🔔"; } // '\1f514' 
+.entypo-icon-bookmark:before { content: "🔖"; } // '\1f516' 
+.entypo-icon-link:before { content: "🔗"; } // '\1f517' 
+.entypo-icon-clock:before { content: "🕔"; } // '\1f554' 
+.entypo-icon-block:before { content: "🚫"; } // '\1f6ab' 
+
+// .entypo-icon-music:before { content: "\266a"; }
+// .entypo-icon-music-alt:before { content: "\1f3b5"; }
+// .entypo-icon-search:before { content: "\1f50d"; }
+// .entypo-icon-search-alt:before { content: "\1f50e"; }
+// .entypo-icon-mail:before { content: "\2709"; }
+// .entypo-icon-heart:before { content: "\2665"; }
+// .entypo-icon-heart-empty:before { content: "\2661"; }
+// .entypo-icon-star:before { content: "\2605"; }
+// .entypo-icon-star-empty:before { content: "\2606"; }
+// .entypo-icon-user:before { content: "\1f464"; }
+// .entypo-icon-users:before { content: "\1f465"; }
+// .entypo-icon-user-add:before { content: "\e700"; }
+// .entypo-icon-video:before { content: "\1f3ac"; }
+// .entypo-icon-picture:before { content: "\1f304"; }
+// .entypo-icon-camera:before { content: "\1f4f7"; }
+// .entypo-icon-th:before { content: "\268f"; }
+// .entypo-icon-th-list:before { content: "\2630"; }
+// .entypo-icon-ok:before { content: "\2713"; }
+// .entypo-icon-cancel:before { content: "\2715"; }
+// .entypo-icon-cancel-circle:before { content: "\2716"; }
+// .entypo-icon-plus:before { content: "\2b"; }
+// .entypo-icon-plus-circle:before { content: "\2795"; }
+// .entypo-icon-minus:before { content: "\2d"; }
+// .entypo-icon-minus-circle:before { content: "\2796"; }
+// .entypo-icon-help:before { content: "\2753"; }
+// .entypo-icon-help-circle:before { content: "\e704"; }
+// .entypo-icon-info:before { content: "\2139"; }
+// .entypo-icon-info-circle:before { content: "\e705"; }
+// .entypo-icon-back:before { content: "\e706"; }
+// .entypo-icon-back-alt:before { content: "\e707"; }
+// .entypo-icon-home:before { content: "\2302"; }
+// .entypo-icon-link:before { content: "\1f517"; }
+// .entypo-icon-attach:before { content: "\1f4ce"; }
+// .entypo-icon-lock:before { content: "\1f512"; }
+// .entypo-icon-lock-open:before { content: "\1f513"; }
+// .entypo-icon-eye:before { content: "\e70a"; }
+// .entypo-icon-tag:before { content: "\e70c"; }
+// .entypo-icon-bookmark:before { content: "\1f516"; }
+// .entypo-icon-flag:before { content: "\2691"; }
+// .entypo-icon-thumbs-up:before { content: "\1f44d"; }
+// .entypo-icon-download:before { content: "\1f4e5"; }
+// .entypo-icon-upload:before { content: "\1f4e4"; }
+// .entypo-icon-upload-cloud:before { content: "\e711"; }
+// .entypo-icon-reply:before { content: "\e712"; }
+// .entypo-icon-reply-all:before { content: "\e713"; }
+// .entypo-icon-forward:before { content: "\27a6"; }
+// .entypo-icon-quote-right:before { content: "\275e"; }
+// .entypo-icon-code:before { content: "\e714"; }
+// .entypo-icon-export:before { content: "\e715"; }
+// .entypo-icon-pencil:before { content: "\270e"; }
+// .entypo-icon-feather:before { content: "\2712"; }
+// .entypo-icon-print:before { content: "\e716"; }
+// .entypo-icon-retweet:before { content: "\e717"; }
+// .entypo-icon-keyboard:before { content: "\2328"; }
+// .entypo-icon-comment:before { content: "\e718"; }
+// .entypo-icon-chat:before { content: "\e720"; }
+// .entypo-icon-bell:before { content: "\1f514"; }
+// .entypo-icon-attention:before { content: "\26a0"; }
+// .entypo-icon-vcard:before { content: "\e722"; }
+// .entypo-icon-address:before { content: "\e723"; }
+// .entypo-icon-location:before { content: "\e724"; }
+// .entypo-icon-map:before { content: "\e727"; }
+// .entypo-icon-direction:before { content: "\27a2"; }
+// .entypo-icon-compass:before { content: "\e728"; }
+// .entypo-icon-trash:before { content: "\e729"; }
+// .entypo-icon-doc:before { content: "\e730"; }
+// .entypo-icon-docs:before { content: "\e736"; }
+// .entypo-icon-docs-landscape:before { content: "\e737"; }
+// .entypo-icon-doc-text:before { content: "\1f4c4"; }
+// .entypo-icon-book-open:before { content: "\1f4d6"; }
+// .entypo-icon-folder:before { content: "\1f4c1"; }
+// .entypo-icon-archive:before { content: "\e738"; }
+// .entypo-icon-rss:before { content: "\e73a"; }
+// .entypo-icon-phone:before { content: "\1f4de"; }
+// .entypo-icon-cog:before { content: "\2699"; }
+// .entypo-icon-share:before { content: "\e73c"; }
+// .entypo-icon-basket:before { content: "\e73d"; }
+// .entypo-icon-calendar:before { content: "\1f4c5"; }
+// .entypo-icon-mic:before { content: "\1f3a4"; }
+// .entypo-icon-volume-off:before { content: "\1f507"; }
+// .entypo-icon-volume-up:before { content: "\1f50a"; }
+// .entypo-icon-volume:before { content: "\e742"; }
+// .entypo-icon-clock:before { content: "\1f554"; }
+// .entypo-icon-hourglass:before { content: "\23f3"; }
+// .entypo-icon-lamp:before { content: "\1f4a1"; }
+// .entypo-icon-light-down:before { content: "\1f505"; }
+// .entypo-icon-light-up:before { content: "\1f506"; }
+// .entypo-icon-block:before { content: "\1f6ab"; }
+// .entypo-icon-resize-full:before { content: "\e744"; }
+// .entypo-icon-resize-small:before { content: "\e746"; }
+// .entypo-icon-popup:before { content: "\e74c"; }
+// .entypo-icon-publish:before { content: "\e74d"; }
+// .entypo-icon-window:before { content: "\e74e"; }
+// .entypo-icon-arrow-combo:before { content: "\e74f"; }
+// .entypo-icon-down-circle2:before { content: "\e758"; }
+// .entypo-icon-left-circle2:before { content: "\e759"; }
+// .entypo-icon-right-circle2:before { content: "\e75a"; }
+// .entypo-icon-up-circle2:before { content: "\e75b"; }
+// .entypo-icon-down-open:before { content: "\e75c"; }
+// .entypo-icon-left-open:before { content: "\e75d"; }
+// .entypo-icon-right-open:before { content: "\e75e"; }
+// .entypo-icon-up-open:before { content: "\e75f"; }
+// .entypo-icon-down-thin:before { content: "\2b07"; }
+// .entypo-icon-left-thin:before { content: "\2b05"; }
+// .entypo-icon-right-thin:before { content: "\27a1"; }
+// .entypo-icon-up-thin:before { content: "\2b06"; }
+// .entypo-icon-down-dir:before { content: "\25be"; }
+// .entypo-icon-left-dir:before { content: "\25c2"; }
+// .entypo-icon-right-dir:before { content: "\25b8"; }
+// .entypo-icon-up-dir:before { content: "\25b4"; }
+// .entypo-icon-down-bold:before { content: "\e4b0"; }
+// .entypo-icon-left-bold:before { content: "\e4ad"; }
+// .entypo-icon-right-bold:before { content: "\e4ae"; }
+// .entypo-icon-up-bold:before { content: "\e4af"; }
+// .entypo-icon-down:before { content: "\2193"; }
+// .entypo-icon-left:before { content: "\2190"; }
+// .entypo-icon-right:before { content: "\2192"; }
+// .entypo-icon-up:before { content: "\2191"; }
+// .entypo-icon-ccw:before { content: "\27f2"; }
+// .entypo-icon-cw:before { content: "\27f3"; }
+// .entypo-icon-level-down:before { content: "\21b3"; }
+// .entypo-icon-shuffle:before { content: "\1f500"; }
+// .entypo-icon-play:before { content: "\25b6"; }
+// .entypo-icon-stop:before { content: "\25aa"; }
+// .entypo-icon-pause:before { content: "\2389"; }
+// .entypo-icon-record:before { content: "\26ab"; }
+// .entypo-icon-to-end:before { content: "\23ed"; }
+// .entypo-icon-to-start:before { content: "\23ee'"; }
+// .entypo-icon-fast-fw:before { content: "\23e9"; }
+// .entypo-icon-fast-bw:before { content: "\23ea"; }
+// .entypo-icon-progress-0:before { content: "\e768"; }
+// .entypo-icon-progress-1:before { content: "\e769"; }
+// .entypo-icon-progress-2:before { content: "\e76a"; }
+// .entypo-icon-progress-3:before { content: "\e76b"; }
+// .entypo-icon-target:before { content: "\1f3af"; }
+// .entypo-icon-palette:before { content: "\1f3a8"; }
+// .entypo-icon-list-add:before { content: "\e003"; }
+// .entypo-icon-signal:before { content: "\e770"; }
+// .entypo-icon-top-list:before { content: "\1f3c6"; }
+// .entypo-icon-battery:before { content: "\1f50b"; }
+// .entypo-icon-back-in-time:before { content: "\e771"; }
+// .entypo-icon-monitor:before { content: "\1f4bb"; }
+// .entypo-icon-mobile:before { content: "\1f4f1"; }
+// .entypo-icon-net:before { content: "\e776"; }
+// .entypo-icon-cd:before { content: "\1f4bf"; }
+// .entypo-icon-inbox:before { content: "\e777"; }
+// .entypo-icon-install:before { content: "\e778"; }
+// .entypo-icon-globe:before { content: "\1d30d"; }
+// .entypo-icon-cloud:before { content: "\2601"; }
+// .entypo-icon-flash:before { content: "\26a1"; }
+// .entypo-icon-moon:before { content: "\263d"; }
+// .entypo-icon-flight:before { content: "\2708"; }
+// .entypo-icon-leaf:before { content: "\1f342"; }
+// .entypo-icon-lifebuoy:before { content: "\e788"; }
+// .entypo-icon-mouse:before { content: "\e789"; }
+// .entypo-icon-bag:before { content: "\e78a"; }
+// .entypo-icon-dot:before { content: "\e78b"; }
+// .entypo-icon-dot-2:before { content: "\e78c"; }
+// .entypo-icon-dot-3:before { content: "\e78d"; }
+// .entypo-icon-google-circles:before { content: "\f310"; }
+// .entypo-icon-cc:before { content: "\e7a5"; }
+// .entypo-icon-logo-entypo:before { content: "\f600"; }
+// .entypo-icon-flag-sw:before { content: "\f601"; }
+// .entypo-icon-logo-db:before { content: "\f603"; }

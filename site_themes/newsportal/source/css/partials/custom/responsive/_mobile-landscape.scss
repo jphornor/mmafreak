@@ -1,0 +1,27 @@
+/*==================================================================== 
+  MOBILE LANDSCAPE
+=================================================================== */
+@media (min-width: 480px) and (max-width: 767px) {
+
+  /* Post List
+  ================================================================= */
+
+  /* Post List Masonry
+  ----------------------------------------------------------------- */
+  .post-grid.row {
+    height: auto !important;
+  }
+  .post-grid .entry-post {
+    overflow: hidden;
+  }
+  .post-grid .entry-top {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+  }
+  .post-grid .entry-content:before {
+    display: none;
+  }
+  
+
+}

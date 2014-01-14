@@ -1,0 +1,56 @@
+// UTILITY CLASSES
+// ---------------
+
+// Clear floats
+.clearfix {
+  @include clearfix();
+}
+
+// Quick floats
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+
+// Toggling content
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+// Visibility
+.invisible {
+  visibility: hidden;
+}
+
+// Enable 3d acceleration
+.accel {
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* Divider vertical */
+.divider-vertical {
+  width: 2px;
+  height: 60px;
+  background-size: 1px 100%;
+  background-position: 0 0, 1px 0;
+  background-repeat: no-repeat;
+  @include background-image( 
+    linear-gradient(top, transparent -10%, rgba(#000, .5), transparent 110%),
+    linear-gradient(top, transparent -10%, rgba(#fff, .4), transparent 110%)
+  );
+}
+
+// CSS image replacement
+.hide-text {
+  @include hide-text();
+}
+
+// Uses box-sizing mixin, so must be defined here
+.input-block-level {
+  @include input-block-level();
+}

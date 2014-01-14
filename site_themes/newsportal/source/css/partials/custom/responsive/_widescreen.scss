@@ -1,0 +1,48 @@
+/*==================================================================== 
+  WIDE SCREEN
+=================================================================== */
+@media (min-width: 1200px) {
+
+  /* Top Menu
+  ================================================================= */
+  .primary-nav ul:first-child > li {
+    font-size: 23px;
+    a {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+  }
+  .branding .tagline {
+    width: 35%;
+  }
+
+
+  /* Middle Menu
+  ================================================================= */
+  .middle-menu,
+  .footer-menu {
+    a {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .middle-menu a {
+    font-size: 23px;
+  }
+
+
+  /* Footer
+  ================================================================= */
+  .footer-tagline {
+    font-size: 18px;
+  }
+
+
+  /* Contact & Comment Form
+  =================================================================== */
+  .form-submit input {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+}

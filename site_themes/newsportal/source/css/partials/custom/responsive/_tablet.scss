@@ -1,0 +1,383 @@
+/*==================================================================== 
+  TABLET AND BELOW
+=================================================================== */
+@media (max-width: 979px) {
+
+  body,
+  .outer-container {
+    overflow-x: hidden;
+  }
+
+  /* Mobile menu for top navigation
+  ================================================================= */
+  .topnav-section {
+    display: none;
+    .container {
+      margin: 0;
+      width: auto;
+    }
+  }
+  .topnav-section.mobilemenu {
+    border: none;
+    display: block !important;
+  }
+  .top-nav,
+  .top-bar {
+    &, li {
+      margin: 0;
+      float: none;
+      width: auto;
+    }
+  }
+
+  .top-nav {
+    padding: 20px 0 0;
+  }
+
+  .top-nav a,
+  .top-bar .social-buttons > ul,
+  .top-bar .menu-inner {
+    margin: 0 auto;
+    padding: 8px 0;
+  }
+  .top-nav a:hover, 
+  .top-nav .current-menu-item a, 
+  .top-nav .current_page_item a {
+    background: none;
+  }
+  .top-nav li,
+  .top-bar li {
+    border-top: 1px solid rgba(#fff, .1);
+    border-bottom: 1px solid rgba(#000, .2);
+  }
+  .top-nav li {
+    &:first-child {
+      border-top: none;
+    }
+    &:hover,
+    &.current_page_item,
+    &.current-menu-item {
+      background: rgba(#000, .1);
+    }
+  }
+
+  /* User menu and social button
+  ----------------------------------------------------------------- */
+  .top-bar {
+    ul {
+      @include clearfix;
+    }
+    &, li {
+      padding: 0;
+      border-left: none;
+      border-right: none
+    }
+    a {
+      padding: 0;
+    }
+  }
+  .top-bar .menu-inner {
+    position: relative;
+    padding: $baseLineHeight 0;
+  }
+  .top-bar .social-buttons > ul {
+    padding: 0;
+  }
+  .top-bar {
+    i {
+      font-size: 21px;
+    }
+    .facebook-button,
+    .twitter-button {
+      padding: 0;
+      width: 50%;
+      float: left;
+      border: none;
+      line-height: 66px;
+    }
+    .facebook-button {
+      background: #166FC9;
+    }
+    .twitter-button {
+      background: #1EBFF3;
+    }
+  }
+
+  /* Author Dropodown Menu
+  ----------------------------------------------------------------- */
+  .author-menu i {
+    line-height: 76px
+  }
+  .author-menu .author-dropdown {
+    height: 0;
+    display: block;
+    overflow: hidden;
+    @include transition-duration(.3s);
+  }
+  .author-menu .open .author-dropdown {
+    height: auto;
+  }
+  .top-bar .author-dropdown {
+    float: none;
+    position: static;
+    margin-top: 18px;
+    margin-bottom: -18px;
+    .input-text {
+      width: 100%;
+      height: auto;
+      @include box-sizing(border-box);
+    }
+  }
+
+
+  /* Mobile Menu for primary menu
+  ================================================================= */
+  .primarynav-section {
+    height: 20px;
+    .container {
+      display: none;
+    }
+  }
+  .primarynav-section.mobilemenu {
+    height: auto;
+    border: none;
+    background: none;
+    &, .container {
+      display: block !important;
+    }
+    .container {
+      top: 0;
+      width: 100%;
+    }
+  }
+
+  .primarynav-section .btn-navbar {
+    display: block;
+  }
+  .primary-nav {
+    &, ul:first-child > li > a {
+      @include border-radius(0);
+    }
+    .nav-collapse {
+      top: 12px;
+      position: relative;
+      margin-left: -12px;
+      margin-right: -12px;
+    }
+    a {
+      margin: 0 auto;
+    }
+    ul:first-child {
+      > li > a:hover,
+      > .current-menu-item a,
+      > .current_page_item a {
+        @include box-shadow(none)
+      }
+    }
+  }
+  .primary-nav li {
+    float: none;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    border-top: 1px solid rgba(255,255,255,.2);
+    &:first-child {
+      border-top: none;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  /* Sub Menu
+  ----------------------------------------------------------------- */
+  .primary-nav .sub-menu,
+  .primary-nav .children {
+    visibility: visible !important;
+    display: block !important;
+    position: static !important;
+    @include box-shadow(none);
+    background: none;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+    li:first-child {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    a {
+      font-size: 100%;
+    }
+    a,
+    ul li:first-child a {
+      border: none;
+    }
+  }
+  .sf-sub-indicator {
+    display: none;
+  }
+
+
+  /* Logo
+  ================================================================= */
+  .branding-section {
+    border: none;
+    padding: 25px 0;
+
+    .row, .branding {
+      margin-left: 0;
+    }
+    .branding {
+      width: 100%;
+    }
+    .span3 {
+      display: none;
+    }
+
+    .contact-button-wrapper {
+      display: none;
+    }
+  }
+
+
+  /* Breacrumbs
+  ================================================================= */
+  .subnav .search-button {
+    width: 15%;
+  }
+  .breadcrumb {
+    width: 80%;
+    @include text-overflow;
+    @include box-sizing(border-box);
+  }
+
+
+  /* Footer
+  ================================================================= */
+  .footer-tagline {
+    font-size: 18px;
+  }
+
+
+}
+
+
+/* TABLET PORTRAIT
+=================================================================== */
+@media (min-width: 768px) and (max-width: 979px) {
+  $gridColumnWidth: 42px;
+  $gridGutterWidth: 20px;
+
+  .entry-date-badge::before {
+    border-width: 21px;
+    bottom: -42px;
+  }
+
+  /* Set Width for mobile menu
+  ----------------------------------------------------------------- */
+  .top-nav a,
+  .top-bar .social-buttons > ul,
+  .top-bar .menu-inner,
+  .button-wrapper,
+  .primary-nav a,
+  .subnav {
+    width: 724px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Recommended Slider
+  ----------------------------------------------------------------- */
+  .recommended-post .entry-post {
+    width: 230px;
+  }
+
+  /* Footer Branding
+  ----------------------------------------------------------------- */
+  .footer-branding {
+    text-align: center;
+    hgroup {
+      margin-left: 0;
+    }
+    .footer-logo,
+    .footer-tagline {
+      float: none;
+      width: auto;
+      margin-left: 0;
+    }
+  }
+
+
+  /* Slidein Sidebar
+  ================================================================= */
+  .main-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .outer-container,
+  section.primary-sidebar {
+    @include transition(0.25s all ease-in);
+  }
+  section.primary-sidebar {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    margin-left: -50%;
+    z-index: 10;
+    padding-right: 20px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: #f0f0f0;
+    @include box-sizing(border-box);
+    @include box-shadow(#{-3px 0 5px rgba(0, 0, 0, .2) inset, 1px 0 rgba(0, 0, 0, .6)});
+  }
+
+  // Active State Panel
+  // ------------------
+  .active-panel {
+    &, body, .main-container {
+      overflow: hidden;
+    }
+    .outer-container {
+      margin-left: 50%;
+      margin-right: -50%;
+    }
+    section.primary-sidebar {
+      margin-left: 0;
+    }
+  }
+
+  /* Need to adjust some column width because the sidebar is out of view
+  ------------------------------------------------------------------*/
+  .main-container > .row {
+    margin-left: 0;
+  }
+  section.main {
+    width: 100%;
+    margin-left: 0;
+  }
+  .popular-post {
+    @include core-span(5, $gridColumnWidth, $gridGutterWidth);
+  }
+  .headline-post-slider {
+    @include core-span(7, $gridColumnWidth, $gridGutterWidth);
+  }
+  .headline-post-tabs {
+    @include core-span(8, $gridColumnWidth, $gridGutterWidth);
+  }
+  .headline-tabs-nav {
+    @include core-span(4, $gridColumnWidth, $gridGutterWidth); 
+  }
+
+  .template-home-ii-php .popular-post {
+    @include core-span(4, $gridColumnWidth, $gridGutterWidth);
+  }
+  .template-home-ii-php .featured-post-wrapper {
+    @include core-span(8, $gridColumnWidth, $gridGutterWidth);
+    .entry-post {
+      @include core-span(4, $gridColumnWidth, $gridGutterWidth);
+    }
+  }
+
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+//
+// Importing global variables framework from compass
+// It will help you without creating more chunky variables and parameters
+// Useful for development, no need to create your own mixin
+// ------------------------------------------------------------------------------------------- */
+// Core development framework - Compass
+
+// Remove -o- & -khtml- prefix
+$experimental-support-for-opera: false;
+$experimental-support-for-khtml: false;
+
+@import "compass";
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/layout";
+@import "compass/utilities";
+
+// 
+// End lines of compass code
+// ------------------------------------------------------------------------------------------- */
+
+/*!
+ *
+ * Main Stylesheet
+ *  
+ * ================================================================ */
+
+// Core variables and mixins
+@import "partials/lib/variables"; // Modify this for custom colors, font-sizes, etc
+@import "partials/lib/mixins";
+
+// Custom style for template
+@import "partials/custom/stylesheet";
+@import "partials/custom/wpclass";
+@import "partials/custom/widgets";
+
+// Grid system and page structure
+@import "partials/lib/grid";
+@import "partials/lib/layouts";
+
+// Utility classes
+@import "partials/lib/utilities"; // Has to be last to override when necessary
+
+// Bootstrap Responsive
+@import "responsive";
+@import "partials/custom/responsive/tablet";
+@import "partials/custom/responsive/mobile-all";
+@import "partials/custom/responsive/widescreen";
+@import "partials/custom/responsive/mobile-landscape";
+@import "partials/custom/responsive/mobile-portrait";

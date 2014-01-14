@@ -1,0 +1,1183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsportal Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-08 15:31+0700\n"
+"PO-Revision-Date: 2012-10-08 15:31+0700\n"
+"Last-Translator: Onnay Okheng <onnay.okheng@gmail.com>\n"
+"Language-Team: Nesia <hola@nesia.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal\n"
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/404.php:40
+msgid "Not found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/404.php:41
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/404.php:42
+msgid "It looks like this was the result of either:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/404.php:44
+msgid "a mistyped address"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/404.php:45
+msgid "an out-of-date link"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/archive.php:26
+#, php-format
+msgid "%s on %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/archive.php:27
+msgid "Rss"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/archive.php:52
+msgid "Sorry, no post for now."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/author.php:19
+#, php-format
+msgid "Page of %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/author.php:29
+#, php-format
+msgid "(have %s posts in total)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/author.php:34
+msgid "View posts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/author.php:35
+msgid "Visit website"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/author.php:36
+msgid "Visit twitter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/author.php:37
+msgid "Visit facebook"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/author.php:48
+msgid "No posts by this author."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:14
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:38
+msgid "Add Yours"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:56
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:57
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:70
+msgid "Leave a comment here"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:74
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:100
+msgid "Comments are closed."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/comments.php:109
+msgid "No comments yet."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-entry-info.php:12
+#, php-format
+msgid "Written by %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-featured-slide.php:14
+msgid "Featured Articles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-pagination.php:18
+msgid "Load More Content"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-pagination.php:25
+msgid "&larr;"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-pagination.php:26
+msgid "&rarr;"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-pagination.php:28
+msgid "Jump Through Pagination"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-quote.php:12
+msgid "Quote of The Day"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-related-posts.php:12
+msgid "Popular"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-related-posts.php:15
+msgid "Related By Categories"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-related-posts.php:18
+msgid "Related By Tags"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-related-posts.php:33
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-related-posts.php:49
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/content-related-posts.php:65
+msgid "No posts related"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/footer.php:50
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/footer.php:62
+msgid "Make sure you are on our list subscriber"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/footer.php:51
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/footer.php:63
+msgid "Go"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/footer.php:75
+msgid "List of Our Authors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:58
+msgid "Login here!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:71
+msgid "Username or email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:75
+msgid "Password"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:81
+msgid "Remember me"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:83
+msgid "Sign in"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:86
+msgid "Forgot password?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:93
+msgid "Logout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:177
+msgid "Type your keywords here and pick your categories"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:179
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/header.php:183
+msgid "Search"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/index.php:17
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage-ii.php:97
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage.php:71
+msgid "Browse Articles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/page.php:35
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/single.php:47
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-fullwidth.php:34
+msgid "Pages:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/page.php:47
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/single.php:66
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-fullwidth.php:46
+msgid "Share This Post"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/page.php:58
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/single.php:97
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-fullwidth.php:57
+msgid "Sponsored Ads"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/single.php:50
+msgid "Categories:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/single.php:51
+msgid "Tags: "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:26
+msgid "You forgot to enter your name."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:34
+msgid "You forgot to enter your subject."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:42
+msgid "You forgot to enter your email address."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:45
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:53
+msgid "You forgot to enter your comments."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:69
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:75
+msgid "From: "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:69
+msgid "Reply-To: "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:74
+msgid "You emailed "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:96
+msgid "You forgot to fill it."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:103
+msgid "You entered an invalid email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:113
+msgid "<strong>Thanks!</strong> Your email was successfully sent."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:147
+msgid "Leave a message here"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:151
+msgid "Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:157
+msgid "Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:163
+msgid "Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:169
+msgid "Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:175
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-contact.php:181
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage-ii.php:21
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage.php:19
+#, php-format
+msgid "Headlines on %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage-ii.php:40
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage-iv.php:65
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage.php:33
+msgid "Popular This Week"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-homepage-iv.php:107
+#, php-format
+msgid "View all %s &rarr;"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-timeline.php:24
+msgid "Select month"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-timeline.php:31
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-timeline.php:31
+msgid "Current Month"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-timeline.php:67
+msgid "Read This Article"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/template-timeline.php:68
+msgid "F tS, Y \\a\\t h:i:s A"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:73
+msgid "Nesia Settings Backup"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:73
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:103
+msgid "Backup Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:105
+msgid "Import Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:107
+msgid "If you have settings in a backup file on your computer, the NesiaFramework can import those into this site. To get started, upload your backup file to import from below."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:112
+#, php-format
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:115
+msgid "Upload File and Import"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:119
+msgid "Export Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:121
+msgid "When you click the button below, the NesiaFramework will create a text file for you to save to your computer."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:122
+#, php-format
+msgid "This text file can be used to restore your settings here on \"%s\", or to easily setup another website with the same settings\"."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:126
+msgid "All Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:127
+msgid "This will contain all of the options listed below."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:129
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2114
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:168
+msgid "Theme Options"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:131
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2118
+msgid "Sidebar Manager"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:131
+msgid "This will contain only the custom sidebars themselves and not the widgets within them"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:134
+msgid "Download Export File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:157
+msgid "Welcome to the Nesia Backup Manager."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:158
+msgid "Here are a few notes on using this screen."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:159
+msgid "The backup manager allows you to backup or restore your \"Theme Options\" and other settings to or from a text file."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:160
+msgid "To create a backup, simply select the setting type you'd like to backup (or \"All Settings\") and hit the \"Download Export File\" button."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:161
+msgid "To restore your settings from a backup, browse your computer for the file (under the \"Import Settings\" heading) and hit the \"Upload File and Import\" button. This will restore only the settings that have changed since the backup."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:163
+msgid "Please note that only valid backup files generated through the Nesia Backup Manager should be imported."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:165
+msgid "Looking for assistance?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:166
+#, php-format
+msgid "Please post your query on the %sNesia Support Forums%s where we will do our best to assist you further."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:186
+#, php-format
+msgid "Please note that this backup manager backs up only your settings and not your content. To backup your content, please use the %sWordPress Export Tool%s."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:189
+msgid "There was a problem importing your settings. Please Try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:191
+msgid "There was a problem exporting your settings. Please Try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:193
+msgid "The import file you've provided is invalid. Please try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-backup.php:195
+#, php-format
+msgid "Settings successfully imported. | Return to %sTheme Options%s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-custom.php:530
+msgid " Custom Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:961
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:978
+msgid "Search Results"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:979
+msgid "Author Archives"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:982
+msgid "Category Archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:983
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:988
+msgid " Archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:984
+msgid "Daily Archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:985
+msgid "Monthly Archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:986
+msgid "Yearly Archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:987
+msgid "Tag Archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1523
+msgid "&laquo; Previous"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1524
+msgid "Next &raquo;"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1650
+msgid "You are here:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1653
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2332
+msgid "Home"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1828
+msgid "g:i a"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1831
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1831
+msgid "i"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1834
+msgid "g a"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1845
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1851
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1856
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1861
+msgid "Y"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1846
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1857
+msgid "F"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1847
+msgid "j"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1852
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1868
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:1872
+msgid "404 Not Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2103
+msgid "Nesia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2329
+msgid "RTL"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2334
+msgid "Archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2336
+msgid "Date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2340
+msgid "Paged"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2342
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2355
+msgid "Attachment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2344
+msgid "Error 404"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2347
+msgid "Product"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2349
+msgid "Article"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2351
+msgid "Blog"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2363
+msgid "All Products"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2379
+msgid "Paged "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2549
+msgid "Continue reading"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2799
+msgid "less than a minute ago"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2801
+msgid "about a minute ago"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2803
+msgid "minutes ago"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2807
+msgid "hours ago"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-functions.php:2811
+msgid "days ago"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:265
+msgid "Options Updated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:266
+msgid "Options Reset"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:290
+msgid "Framework"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:300
+msgid "View Changelog"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:301
+msgid "View Themedocs"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:302
+msgid "Visit Forum"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:815
+msgid "Options Saved Successfully"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:819
+msgid "There was an error while saving your options. Please try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:823
+msgid "Options Reset Successfully"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:1428
+msgid "URL Link"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-interface.php:1488
+msgid "You are not able to update this option because you lack the <code>unfiltered_html</code> capability."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:47
+msgid "NesiaFramework Internal Container"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:151
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:229
+msgid "Upload"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:177
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:255
+msgid "View File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:390
+msgid "Gallery"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:390
+msgid "Previously Uploaded"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:407
+msgid "Use this Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/functions/admin-medialibrary-uploader.php:408
+#, php-format
+msgid "Use as %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-comments.php:14
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-comments.php:79
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:166
+msgid "Website"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-comments.php:100
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:187
+msgid "Submit Comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-comments.php:101
+msgid "Cancel reply."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-comments.php:102
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:189
+msgid "Comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:35
+msgid "Top Menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:36
+msgid "Main Menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:37
+msgid "Middle Menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:38
+msgid "Footer Menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:61
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:62
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:86
+msgid "Quotes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:87
+msgid "Quote"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:88
+msgid "Add New"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:89
+msgid "Add New Quote"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:90
+msgid "Edit Quote"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:91
+msgid "New Quote"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:92
+msgid "View Quote"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:93
+msgid "Search Quotes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:94
+msgid "No quotes found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:95
+msgid "No quotes found in Trash"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:188
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:250
+msgid "Extra profile information"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:254
+msgid "Twitter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:257
+msgid "Please enter your Twitter username."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:261
+msgid "Facebook"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:264
+msgid "Please enter your Facebook link."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:328
+msgid "already"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:360
+#, php-format
+msgid "%s Likes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:454
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:490
+msgid "Choose an icon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:463
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:502
+msgid "Select an icon for category icon."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-functions.php:561
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/theme-js.php:18
+msgid "Sorry, you have voted this post"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-adspace.php:11
+msgid "Nesia - Adspace Widget"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-adspace.php:60
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:96
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-flickr.php:63
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:72
+msgid "Title (optional):"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-adspace.php:65
+msgid "Ad Code:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-adspace.php:71
+msgid "Image Url:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-adspace.php:75
+msgid "Link URL:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-adspace.php:79
+msgid "Alt text:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:13
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:13
+msgid "Using this widget you can customize the content on the main page or sidebar."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:14
+msgid "Nesia - Carousel Posts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:34
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:37
+msgid "Title:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:38
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:41
+msgid "Order by:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:40
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:43
+msgid "Recent"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:41
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:44
+msgid "Featured"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:42
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:45
+msgid "View"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:43
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:46
+msgid "Category"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:50
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:53
+msgid "Select category"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:65
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:76
+msgid "Number of posts in list:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:65
+msgid "default is 10"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:100
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:112
+msgid "Widget title post list"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-carousel.php:217
+msgid "Seek through navigation"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:9
+msgid "Add a subscribe/connect widget."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:10
+msgid "Nesia - Subscribe / Connect"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:25
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:37
+msgid "You need to spend time learning the code and adjust your website accordingly. Read our recommendation directly through your email weekly, si ya!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:27
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:39
+msgid "E-mail"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:28
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:40
+msgid "Subscribe"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:52
+msgid "Youtube"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:54
+msgid "Flickr"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:75
+msgid "Subscribe and join the crowd"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-connect-subscribe.php:94
+#, php-format
+msgid "Setup this widget in your <a href=\"%s\">options panel</a> under <strong>Subscribe &amp; Connect</strong>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:17
+msgid "Display Facebook page Like Box in your sidebar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:19
+msgid "Nesia - Facebook"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:27
+msgid "We're On Facebook"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:43
+msgid "Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:51
+msgid "Facebook page name (http://www.facebook.com/[page_name])"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:59
+msgid "Height"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:68
+msgid "Show Faces"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:76
+msgid "Show stream"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-facebook.php:84
+msgid "Show header"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-flickr.php:10
+msgid "Nesia - Flickr"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-flickr.php:68
+msgid "Flickr ID (<a href=\""
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-flickr.php:72
+msgid "Type:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-flickr.php:74
+msgid "User"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-flickr.php:75
+msgid "Group"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-flickr.php:79
+msgid "Limit photos:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:14
+msgid "Nesia - Posts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:69
+msgid "Layout:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:71
+msgid "Default"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:72
+msgid "Full Width"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:73
+msgid "Half"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:76
+msgid "default is 5"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-posts.php:77
+msgid "Display the thumbnail"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:27
+msgid "This widget is the Tabs that classically goes into the sidebar. It contains the Popular posts, Latest Posts, Recent comments and a Tag cloud."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:28
+msgid "Nesia - Tabs"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:39
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:181
+msgid "Latest Articles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:41
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:184
+msgid "Most Reads"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:43
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:187
+msgid "Most Popular"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:45
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:190
+msgid "Latest Commented"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:47
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:193
+msgid "Most Discussion"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:49
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:196
+msgid "Most Likes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:57
+msgid "Latest News From The World"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:66
+msgid "Most Reads by Visitors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:75
+msgid "Popular Articles We Have for You"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:84
+msgid "Latest Comments from Our Visitors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:93
+msgid "Articles With Active Discussion to Watch"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:102
+msgid "Most Likes News and Articles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:174
+msgid "Number of posts:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-tabs.php:179
+msgid "Hide Tabs:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:10
+msgid "Nesia - Twitter Stream"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:36
+#, php-format
+msgid "Follow @%s on twitter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:76
+msgid "Number of tweet:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:80
+msgid "Stream type:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:82
+msgid "User stream"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:83
+#: /Applications/MAMP/htdocs/nesia/wp-content/themes/newsportal/includes/widgets/widget-nesia-twitter.php:88
+msgid "Search keyword"
+msgstr ""
+

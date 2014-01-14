@@ -1,0 +1,100 @@
+/* 
+ * WordPress formatted content
+ * Provided from WYSIWYG Editor Styles
+ * Just change and make it suitable with your document
+ */
+.sticky,
+.bypostauthor {
+  position: static;
+}
+.entry-content img {
+	margin: 0.5em 0 1.5em 0;
+}
+.alignleft,
+img.alignleft {
+	@include float(left);
+	margin-right: 1.5em;
+}
+.alignright, 
+img.alignright {
+	@include float(right);
+	margin-left: 1.5em;
+}
+.aligncenter, 
+img.aligncenter {
+	@extend .show;
+  text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+.alignnone, 
+img.alignnone {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-caption {
+	margin-bottom: 1.5em;
+	padding-top: 5px;
+	img {
+		border: 0 none;
+		padding: 0;
+		margin: 0;
+	}
+  a, img {
+    display: block;
+  }
+	a {
+    border-bottom: 10px solid $borderColor;
+  }
+  @media(max-width: 767px) {
+    width: 100% !important;
+    img {
+      width: 100%;
+    }
+  }
+}
+.wp-caption a:hover {
+  border-bottom-color: $linkColor;
+}
+.wp-caption-text {
+  line-height: 1.5;
+  font-size: 11px;
+  margin: 12px 0 0 0;
+  color: #666;
+  position: relative;
+  padding-left: 27px;
+  font-family: $sansFontFamily;
+}
+.wp-caption-text:before {
+  content: "";
+  height: 1px;
+  width: 15px;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  background: #666;
+}
+
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1em;
+}
+blockquote {
+	&.left {
+		@include float(left);
+		margin-right: 1.5em;
+		text-align: right;
+		margin-left: 0;
+		width: 33%;
+	}
+	&.right {
+		@include float(right);
+		margin-left: 1.5em;
+		text-align: left;
+		margin-right: 0;
+		width: 33%;
+	}
+}
+.gallery-caption { margin: -1.5em 0 0 0; }

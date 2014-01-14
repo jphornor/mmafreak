@@ -1,0 +1,83 @@
+.nesia-live-settings {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #fff;
+  z-index: 10000;
+  padding: 10px 0;
+  width: 320px;
+  font-size: 13px !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  box-shadow: 0 0 10px rgba(0,0,0,.7);
+  border-radius: 0 5px 5px 0
+}
+.nesia-live-settings.display_hide {
+  left: -320px;
+}
+.nesia-live-settings .settings-section {
+  padding: 10px;
+  border-bottom: 1px solid #efefef
+}
+.nesia-live-settings .settings-title {
+  padding: 0 10px;
+  display: block;
+  text-transform: uppercase;
+}
+.nesia-live-settings .settings-heading {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px
+}
+.nesia-live-settings .settings-button {
+  display: block;
+  width: 100%;
+  font-size: 11px !important
+}
+.nesia-live-settings .settings-help {
+  color: #777;
+  display: block;
+  margin-bottom: 2px
+}
+.nesia-live-settings .settings-controller input,
+.nesia-live-settings .settings-controller label {
+  font-size: 13px !important
+}
+.nesia-live-settings .settings-controller select {
+  width: 100%;
+}
+.nesia-live-settings .openclose-settings {
+  width: 30px;
+  height: 200px;
+  position: absolute;
+  right: -30px;
+  top: 20px;
+  cursor: pointer;
+  background: #fff url(../images/switcher-text.png) no-repeat center center;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 3px 0 5px rgba(0, 0, 0, .5);
+}
+
+.skin-switcher a {
+  color: #fff;
+  width: 80px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 1px 5px;
+  font-size: 11px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  -webkit-font-smoothing: auto;
+}
+.skin-switcher a:hover,
+.skin-switcher .active {
+  text-decoration: underline;
+  box-shadow: 0 0 0 2px rgba(255,255,255,.4) inset
+}
+
+/* Hide switcher when on mobile */
+@media (max-width: 767px) {
+  .nesia-live-settings {
+    display: none
+  }
+}

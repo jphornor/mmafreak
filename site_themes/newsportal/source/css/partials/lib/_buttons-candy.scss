@@ -1,0 +1,60 @@
+// BUTTON CANDY STYLES
+// -------------------
+
+$candyGreen: #72C10D;
+$candyBlue:  #5498f6;
+$candyPink:  #FF5F77;
+
+// Mixin for create candy button background
+@mixin candy-button( $background ) {
+  // background: $background;
+  // &:hover,
+  // &:focus,
+  // &:active {
+  //   background: darken( $background, 3% );
+  // }
+  @include buttonBackground( $background, darken($background, 5%) );
+}
+
+// Set color
+// ---------
+[class*="btn-candy"],
+[class*=" btn-candy"] {
+  &, &:hover {
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    @include box-shadow(none);
+  }
+
+  // Set font size for each button size
+  & {
+    font-size: $baseFontSize - 2;
+  }
+  &.btn-small {
+    font-size: $baseFontSize - 3;
+  }
+  &.btn-large {
+    font-size: $baseFontSize;
+  }
+
+}
+
+// Set the backgrounds
+// -------------------
+
+// Candy Green
+.btn-candygreen {
+  @include candy-button( $candyGreen );
+}
+
+// Candy Blue
+.btn-candyblue {
+  @include candy-button( $candyBlue );
+}
+
+// Candy Pink
+.btn-candypink {
+  @include candy-button( $candyPink );
+}

@@ -1,0 +1,268 @@
+/**
+ * Color Scheme for Newsportal WordPress Theme by Nesia
+ *
+ */
+/* Base
+=================================================================== */
+a {
+  color: #9ab5cb;
+}
+
+a:hover {
+  color: #678fb1;
+}
+
+/* Topnav Section
+=================================================================== */
+.header-container {
+  background-color: #5d88ac;
+}
+
+/* Top Navigation
+------------------------------------------------------------------- */
+.top-nav a:hover,
+.top-nav .current-menu-item a,
+.top-nav .current_page_item a {
+  background: #466a88;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.primary-nav .children,
+.primary-nav .sub-menu {
+  background: #7fa1bd;
+}
+.primary-nav .children a:hover,
+.primary-nav .children .sfHover > a,
+.primary-nav .sub-menu a:hover,
+.primary-nav .sub-menu .sfHover > a {
+  background: #466a88;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Author Menu
+------------------------------------------------------------------- */
+.author-dropdown a {
+  color: #9ab5cb;
+}
+
+/* Primary Nav Section
+=================================================================== */
+.primarynav-section .btn-navbar {
+  background-color: #c2d2e0;
+  background-color: #afc4d5;
+  background-image: -moz-linear-gradient(top, #c9d7e3, #89a8c2);
+  background-image: -ms-linear-gradient(top, #c9d7e3, #89a8c2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c9d7e3), to(#89a8c2));
+  background-image: -webkit-linear-gradient(top, #c9d7e3, #89a8c2);
+  background-image: -o-linear-gradient(top, #c9d7e3, #89a8c2);
+  background-image: linear-gradient(top, #c9d7e3, #89a8c2);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c6d5e2', endColorstr='#85a6c1', GradientType=0);
+  border-color: #89a8c2 #89a8c2 #5683a8;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #89a8c2;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: #486e8e;
+}
+.primarynav-section .btn-navbar:hover, .primarynav-section .btn-navbar:active, .primarynav-section .btn-navbar.active, .primarynav-section .btn-navbar.disabled, .primarynav-section .btn-navbar[disabled] {
+  background-color: #89a8c2;
+  *background-color: #789cba;
+}
+.primarynav-section .btn-navbar:active, .primarynav-section .btn-navbar.active {
+  background-color: #678fb1 \9;
+}
+
+/* Primary Nav
+------------------------------------------------------------------- */
+.primary-nav {
+  background: #7fa1bd;
+  border: 1px solid #486e8e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7fa1bd), color-stop(100%, #678fb1));
+  background-image: -webkit-linear-gradient(#7fa1bd, #678fb1);
+  background-image: -moz-linear-gradient(#7fa1bd, #678fb1);
+  background-image: -o-linear-gradient(#7fa1bd, #678fb1);
+  background-image: linear-gradient(#7fa1bd, #678fb1);
+  -webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 -6px 0 -5px #90adc6, 0 -6px 0 -4px #486e8e, 0 -11px 0 -8px #90adc6, 0 -11px 0 -7px #486e8e, 0 -16px 0 -11px #90adc6, 0 -16px 0 -10px #486e8e, 0 -21px 0 -14px #90adc6, 0 -21px 0 -13px #486e8e;
+  -moz-box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 -6px 0 -5px #90adc6, 0 -6px 0 -4px #486e8e, 0 -11px 0 -8px #90adc6, 0 -11px 0 -7px #486e8e, 0 -16px 0 -11px #90adc6, 0 -16px 0 -10px #486e8e, 0 -21px 0 -14px #90adc6, 0 -21px 0 -13px #486e8e;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 -6px 0 -5px #90adc6, 0 -6px 0 -4px #486e8e, 0 -11px 0 -8px #90adc6, 0 -11px 0 -7px #486e8e, 0 -16px 0 -11px #90adc6, 0 -16px 0 -10px #486e8e, 0 -21px 0 -14px #90adc6, 0 -21px 0 -13px #486e8e;
+}
+.mobilemenu .primary-nav {
+  -webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px #90adc6, 0 2px #486e8e, 0 3px #90adc6, 0 4px #486e8e, 0 5px #90adc6, 0 6px #486e8e, 0 7px #90adc6, 0 8px #486e8e;
+  -moz-box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px #90adc6, 0 2px #486e8e, 0 3px #90adc6, 0 4px #486e8e, 0 5px #90adc6, 0 6px #486e8e, 0 7px #90adc6, 0 8px #486e8e;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px #90adc6, 0 2px #486e8e, 0 3px #90adc6, 0 4px #486e8e, 0 5px #90adc6, 0 6px #486e8e, 0 7px #90adc6, 0 8px #486e8e;
+}
+
+.primary-nav ul:first-child > li > a:hover,
+.primary-nav ul:first-child > .current-menu-item a,
+.primary-nav ul:first-child > .current_page_item a,
+.primary-nav .sf-menu > .sfHover > a {
+  background: #5580a5;
+}
+
+/* Top Bar
+------------------------------------------------------------------- */
+.author-menu .menu-inner > a:hover,
+.social-buttons a:hover {
+  color: #fff;
+}
+
+/* Section
+=================================================================== */
+.section-title,
+.primary-sidebar .widget-title,
+.content-sidebar .widget-title {
+  border-top: 3px solid #abc1d4;
+}
+.section-title:before, .section-title h4,
+.primary-sidebar .widget-title:before,
+.primary-sidebar .widget-title h4,
+.content-sidebar .widget-title:before,
+.content-sidebar .widget-title h4 {
+  background: #abc1d4;
+}
+.section-title h4:before,
+.primary-sidebar .widget-title h4:before,
+.content-sidebar .widget-title h4:before {
+  border-color: #abc1d4 transparent transparent #abc1d4;
+}
+
+/* Entry Post
+=================================================================== */
+.entry-top:hover > a {
+  border-bottom-color: #9ab5cb;
+}
+
+.entry-top .entry-comment-count:hover,
+.entry-top .entry-likes:hover,
+.entry-extra .entry-extra-span:hover {
+  background: #9ab5cb;
+}
+
+.entry-header a:hover {
+  color: #9ab5cb;
+}
+
+/* Headlines Post
+=================================================================== */
+.headline-pager a {
+  border-color: #9ab5cb;
+}
+.headline-pager .selected, .headline-pager a:hover {
+  background: #9ab5cb;
+}
+.headline-pager a:before {
+  background: #9ab5cb;
+}
+
+.headline-tabs-nav li a:hover,
+.headline-tabs-nav .active a {
+  color: #9ab5cb;
+}
+
+.headline-slide-nav .active a, .headline-slide-nav li a:hover {
+  border-bottom-color: #9ab5cb;
+}
+
+.headline-full-slide.headline-post-wrapper .entry-category a {
+  color: #eef3f6;
+}
+
+/* Recommended Post
+=================================================================== */
+.recommended-post-wrapper h4 {
+  color: #9ab5cb;
+}
+
+/* Post List
+=================================================================== */
+.post-list .entry-content:before {
+  background: #9ab5cb;
+}
+
+/* Mini Sidebar
+=================================================================== */
+.mini-sidebar a:hover {
+  color: #9ab5cb;
+}
+
+/* Widget Twitter
+------------------------------------------------------------------- */
+.nesia-tweet-list .jta-tweet-text {
+  background: white;
+}
+.nesia-tweet-list .jta-tweet-text:before {
+  border-color: white;
+  border-color: white transparent transparent white;
+}
+.nesia-tweet-list .tweet-user-screenname a:hover {
+  color: #9ab5cb;
+}
+
+/* Widget Tags Cloud
+------------------------------------------------------------------- */
+.widget_tag_cloud a {
+  background: #fafbfc;
+}
+.widget_tag_cloud a:hover {
+  background: #abc1d4;
+}
+
+/* Widget Categories, links
+------------------------------------------------------------------- */
+.widget_categories li {
+  background: white;
+}
+.widget_categories li:hover {
+  background: #e7eef3;
+}
+
+/* Widget Tabs
+------------------------------------------------------------------- */
+.widget_tabs .tab-nav a:hover:before,
+.widget_tabs .tab-nav .active a:before {
+  background: #9ab5cb;
+}
+
+/* Single Post
+=================================================================== */
+.entry-date-badge,
+.entry-likes,
+.form_header a {
+  background: #abc1d4;
+}
+
+.entry-date-badge:before {
+  border-top-color: #abc1d4;
+}
+
+#related-articles .tab-content li:before {
+  background: #f8fafb;
+}
+
+/* Comments
+=================================================================== */
+.comment-time,
+.comment-time:before,
+.comment-reply-link:before {
+  color: #9ab5cb;
+}
+
+.author-badge {
+  background: #9ab5cb;
+}
+
+/* Archive Timeline
+=================================================================== */
+.timeline-header h3,
+.time-indicator {
+  background: #9ab5cb;
+}
+
+/* Single Post on Mobile
+=================================================================== */
+@media (max-width: 767px) {
+  .entry-date-badge:before {
+    border-color: transparent transparent transparent #abc1d4;
+  }
+}
